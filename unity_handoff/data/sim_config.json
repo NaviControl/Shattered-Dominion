@@ -1,0 +1,23 @@
+{
+  "note": "PLACEHOLDER BALANCE. All values are integers. Percentages are basis points (1/10000).",
+  "config": {
+    "ATTACK_PER_TROOP": 12,
+    "DEFENSE_PER_TROOP": 12,
+    "FORMATION_BPS": {
+      "aggressive": 12500,
+      "balanced": 10800,
+      "defensive": 9500
+    },
+    "MARCH_TICKS": 3,
+    "GROWTH_INTERVAL": 4,
+    "GROWTH_AMOUNT": 2,
+    "NPC_INTERVAL": 5,
+    "NPC_SEND_BPS": 6000,
+    "NPC_ATTACK_BPS": 12000,
+    "STAGING_RADIUS": 2,
+    "VICTORY_TOWERS": 4,
+    "MAX_TICKS": 1200,
+    "DEFENDER_LOSS_DIV": 24,
+    "CAPTURED_POWER_KEEP_PCT": 50
+  }
+}

@@ -1,0 +1,13 @@
+family_specialty,trigger,stat_or_effect,amount,effect_summary,notes,status
+Flying assault / breath attacks,aura,atk,11000,Allies in range +10% ATK,Team attack boost (approximates team skill damage; exact team skill damage needs schema v2),DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Resilience / death triggers,battle_start,def,11000,+10% DEF for the battle,Death-trigger effect needs on_death (not in v1),DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Elemental resistance / terrain,battle_start,def,11000,+10% DEF for the battle,Terrain effect not modelled,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Berserk / sacrifice,battle_start,atk,11500,+15% ATK for the battle,Sacrifice effect not modelled,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Pack hunting / mobility,battle_start,spd,11000,+10% SPD for the battle,Mobility bonus approximated by SPD,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Healing / protection,round_start,heal,5,Heal 5% of max HP each round,Protection effect not modelled,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Poison / swarm tempo,battle_start,spd,10500,+5% SPD for the battle,Poison damage over time needs schema v2,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Disruption / tidal control,battle_start,spd,9000,-10% own SPD (placeholder),Disruption would be an enemy debuff; not a passive in v1 (needs review),DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Formation / tactical versatility,aura,def,10500,Allies in range +5% DEF,Tactical versatility approximated,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Heavy strikes / control,battle_start,atk,11000,+10% ATK for the battle,Control effect needs schema v2,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval
+Evasion / illusions,battle_start,evade,2,2 evade charges at battle start,Builder proposal under schema v2,BUILDER PROPOSAL: pending owner review
+Armor / siege,battle_start,def,11500,+15% DEF for the battle,Siege bonus not modelled,DRAFT: category set approved by owner (no troop increase); per-specialty mapping pending approval

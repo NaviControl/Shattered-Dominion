@@ -1,0 +1,146 @@
+{
+  "source": "src/game/creatureBalance.ts (prototype), read through calculateCreatureSynergies()",
+  "elementRules": [
+    {
+      "count": 2,
+      "tier": "minor",
+      "title": "Minor Fire Harmony",
+      "powerBonusPercent": 10,
+      "defenseBonusPercent": 5
+    },
+    {
+      "count": 3,
+      "tier": "major",
+      "title": "Major Fire Resonance",
+      "powerBonusPercent": 20,
+      "defenseBonusPercent": 15
+    },
+    {
+      "count": 4,
+      "tier": "primal",
+      "title": "Primal Fire Conflux",
+      "powerBonusPercent": 30,
+      "defenseBonusPercent": 20
+    }
+  ],
+  "familyRules": [
+    {
+      "family": "Dragons",
+      "title": "Draconic Might",
+      "effect": "Empowers fiery fury: +15% ATK and +20% Critical Damage.",
+      "statBonus": {
+        "atkPercent": 15,
+        "critPercent": 20
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Undead",
+      "title": "Lich King's Grasp",
+      "effect": "Unwavering undeath: +12% DEF and +10% Lifesteal.",
+      "statBonus": {
+        "defPercent": 12,
+        "lifestealPercent": 10
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Elementals",
+      "title": "Primal Convergence",
+      "effect": "Harnesses raw world essence: +14% ATK and +10% Skill Potency.",
+      "statBonus": {
+        "atkPercent": 14,
+        "spdPercent": 5
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Demons",
+      "title": "Infernal Wrath",
+      "effect": "Blood pact of destruction: +22% ATK and -5% DEF.",
+      "statBonus": {
+        "atkPercent": 22,
+        "defPercent": -5
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Beasts",
+      "title": "Primal Pack Hunt",
+      "effect": "Swift instinctual unity: +18% SPD and +10% ATK.",
+      "statBonus": {
+        "spdPercent": 18,
+        "atkPercent": 10
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Celestials",
+      "title": "Aegis of the Heavens",
+      "effect": "Radiant divine barrier: +20% DEF and holy warding.",
+      "statBonus": {
+        "defPercent": 20
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Swarmkin",
+      "title": "Chitinous Surge",
+      "effect": "Overwhelming horde velocity: +24% SPD and +8% Dodge.",
+      "statBonus": {
+        "spdPercent": 24
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Abyssals",
+      "title": "Tide of the Deep",
+      "effect": "Crushing deep trench pressure: +16% Armor Piercing.",
+      "statBonus": {
+        "atkPercent": 16
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Humanoids",
+      "title": "Tactical Discipline",
+      "effect": "Disciplined military formation: +10% ATK, +10% DEF, +10% SPD.",
+      "statBonus": {
+        "atkPercent": 10,
+        "defPercent": 10,
+        "spdPercent": 10
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Giants",
+      "title": "Titan Stride",
+      "effect": "Immense physical bulk: +25% DEF and stagger immunity.",
+      "statBonus": {
+        "defPercent": 25
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Fae",
+      "title": "Glamour Veil",
+      "effect": "Ethereal trickery: +15% Dodge and +12% Magic Resistance.",
+      "statBonus": {
+        "spdPercent": 15,
+        "defPercent": 12
+      },
+      "threshold": 2
+    },
+    {
+      "family": "Mechanicals",
+      "title": "Clockwork Precision",
+      "effect": "Gear-driven synchrony: +15% DEF and +12% Critical Chance.",
+      "statBonus": {
+        "defPercent": 15,
+        "critPercent": 12
+      },
+      "threshold": 2
+    }
+  ],
+  "note": "Element tiers are by count of the same element; the prototype also awards no bonus for 1. Family bonuses need 2+ of a family. Commander-creature bonds are not exported yet."
+}

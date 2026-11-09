@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "rule": "Attacker element",
+      "value": "Row of ELEMENT MATCHUPS"
+    },
+    {
+      "rule": "Defender element",
+      "value": "Column of ELEMENT MATCHUPS"
+    },
+    {
+      "rule": "Attacker family",
+      "value": "Row of FAMILY MATCHUPS"
+    },
+    {
+      "rule": "Defender family",
+      "value": "Column of FAMILY MATCHUPS"
+    },
+    {
+      "rule": "Final attack multiplier",
+      "value": "Base damage × (1 + element modifier) × (1 + family modifier)"
+    },
+    {
+      "rule": "Best combined matchup",
+      "value": "1.20 × 1.12 = 1.344 (34.4% bonus)"
+    },
+    {
+      "rule": "Worst combined matchup",
+      "value": "0.85 × 0.90 = 0.765 (23.5% reduction)"
+    },
+    {
+      "rule": "Neutral matchups",
+      "value": "0% additional attack modification"
+    },
+    {
+      "rule": "Design status",
+      "value": "PROPOSED. No battle simulation / balance QA performed"
+    }
+  ]
+}

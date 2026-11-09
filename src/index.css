@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: max(env(safe-area-inset-bottom, 0px), 12px);
+  }
+  .safe-top {
+    padding-top: max(env(safe-area-inset-top, 0px), 12px);
+  }
+  .obsidian-panel {
+    background: linear-gradient(135deg, #090d16 0%, #111827 100%);
+    border: 1px solid rgba(217, 119, 6, 0.35);
+    box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.05), 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+  .bronze-border {
+    border: 1px solid #b45309;
+  }
+  .gold-glow {
+    box-shadow: 0 0 25px rgba(245, 158, 11, 0.25);
+  }
+  .parchment-text {
+    color: #f3f4f6;
+    letter-spacing: 0.025em;
+  }
+}

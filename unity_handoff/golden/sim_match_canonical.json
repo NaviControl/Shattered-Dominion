@@ -1,0 +1,3736 @@
+{
+  "seed": "shattered-dominion-world-v2",
+  "player": "player",
+  "botVersion": "bot-v2: send the full staging pool from the strongest tile to the weakest beatable neighbour (10% margin), every 3 ticks",
+  "config": {
+    "ATTACK_PER_TROOP": 12,
+    "DEFENSE_PER_TROOP": 12,
+    "FORMATION_BPS": {
+      "aggressive": 12500,
+      "balanced": 10800,
+      "defensive": 9500
+    },
+    "MARCH_TICKS": 3,
+    "GROWTH_INTERVAL": 4,
+    "GROWTH_AMOUNT": 2,
+    "NPC_INTERVAL": 5,
+    "NPC_SEND_BPS": 6000,
+    "NPC_ATTACK_BPS": 12000,
+    "STAGING_RADIUS": 2,
+    "VICTORY_TOWERS": 4,
+    "MAX_TICKS": 1200,
+    "DEFENDER_LOSS_DIV": 24,
+    "CAPTURED_POWER_KEEP_PCT": 50
+  },
+  "commands": [
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_4",
+      "to": "t_2_4",
+      "troops": 95,
+      "formation": "balanced",
+      "tick": 0
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_3",
+      "to": "t_2_3",
+      "troops": 107,
+      "formation": "balanced",
+      "tick": 3
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_3",
+      "to": "t_3_2",
+      "troops": 123,
+      "formation": "balanced",
+      "tick": 6
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_3",
+      "to": "t_4_2",
+      "troops": 147,
+      "formation": "balanced",
+      "tick": 9
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_3",
+      "to": "t_5_2",
+      "troops": 173,
+      "formation": "balanced",
+      "tick": 12
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_2",
+      "to": "t_2_2",
+      "troops": 187,
+      "formation": "balanced",
+      "tick": 15
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_4",
+      "to": "t_1_4",
+      "troops": 213,
+      "formation": "balanced",
+      "tick": 18
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_3",
+      "to": "t_1_3",
+      "troops": 241,
+      "formation": "balanced",
+      "tick": 21
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_4",
+      "to": "t_2_5",
+      "troops": 274,
+      "formation": "balanced",
+      "tick": 24
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_5",
+      "to": "t_4_6",
+      "troops": 312,
+      "formation": "balanced",
+      "tick": 27
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_5",
+      "to": "t_5_6",
+      "troops": 349,
+      "formation": "balanced",
+      "tick": 30
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_4",
+      "to": "t_6_4",
+      "troops": 392,
+      "formation": "balanced",
+      "tick": 33
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_3",
+      "to": "t_6_3",
+      "troops": 438,
+      "formation": "balanced",
+      "tick": 36
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_2",
+      "to": "t_5_1",
+      "troops": 470,
+      "formation": "balanced",
+      "tick": 39
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_2",
+      "to": "t_4_1",
+      "troops": 518,
+      "formation": "balanced",
+      "tick": 42
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_2",
+      "to": "t_3_1",
+      "troops": 574,
+      "formation": "balanced",
+      "tick": 45
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_2",
+      "to": "t_1_2",
+      "troops": 630,
+      "formation": "balanced",
+      "tick": 48
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_4",
+      "to": "t_0_4",
+      "troops": 682,
+      "formation": "balanced",
+      "tick": 51
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_3",
+      "to": "t_0_3",
+      "troops": 744,
+      "formation": "balanced",
+      "tick": 54
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_4",
+      "to": "t_1_5",
+      "troops": 816,
+      "formation": "balanced",
+      "tick": 57
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_5",
+      "to": "t_3_6",
+      "troops": 931,
+      "formation": "balanced",
+      "tick": 60
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_6",
+      "to": "t_5_7",
+      "troops": 1013,
+      "formation": "balanced",
+      "tick": 63
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_5",
+      "to": "t_6_5",
+      "troops": 1116,
+      "formation": "balanced",
+      "tick": 66
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_3",
+      "to": "t_6_2",
+      "troops": 1222,
+      "formation": "balanced",
+      "tick": 69
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_4",
+      "to": "t_7_4",
+      "troops": 1331,
+      "formation": "balanced",
+      "tick": 72
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_5",
+      "to": "t_6_6",
+      "troops": 1438,
+      "formation": "balanced",
+      "tick": 75
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_6",
+      "to": "t_4_7",
+      "troops": 1570,
+      "formation": "balanced",
+      "tick": 78
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_6",
+      "to": "t_2_6",
+      "troops": 1712,
+      "formation": "balanced",
+      "tick": 81
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_5",
+      "to": "t_0_5",
+      "troops": 1862,
+      "formation": "balanced",
+      "tick": 84
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_3",
+      "to": "t_0_2",
+      "troops": 2014,
+      "formation": "balanced",
+      "tick": 87
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_2",
+      "to": "t_2_1",
+      "troops": 2200,
+      "formation": "balanced",
+      "tick": 90
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_1",
+      "to": "t_4_0",
+      "troops": 2396,
+      "formation": "balanced",
+      "tick": 93
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_1",
+      "to": "t_5_0",
+      "troops": 2605,
+      "formation": "balanced",
+      "tick": 96
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_0",
+      "to": "t_3_0",
+      "troops": 2807,
+      "formation": "balanced",
+      "tick": 99
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_1",
+      "to": "t_1_1",
+      "troops": 3044,
+      "formation": "balanced",
+      "tick": 102
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_2",
+      "to": "t_0_1",
+      "troops": 3297,
+      "formation": "balanced",
+      "tick": 105
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_1",
+      "to": "t_2_0",
+      "troops": 3578,
+      "formation": "balanced",
+      "tick": 108
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_1",
+      "to": "t_1_0",
+      "troops": 3862,
+      "formation": "balanced",
+      "tick": 111
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_1",
+      "to": "t_0_0",
+      "troops": 4178,
+      "formation": "balanced",
+      "tick": 114
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_6",
+      "to": "t_3_7",
+      "troops": 51,
+      "formation": "balanced",
+      "tick": 117
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_7",
+      "to": "t_5_8",
+      "troops": 72,
+      "formation": "balanced",
+      "tick": 120
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_7",
+      "to": "t_4_8",
+      "troops": 75,
+      "formation": "balanced",
+      "tick": 123
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_7",
+      "to": "t_2_7",
+      "troops": 92,
+      "formation": "balanced",
+      "tick": 126
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_6",
+      "to": "t_1_6",
+      "troops": 112,
+      "formation": "balanced",
+      "tick": 129
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_5",
+      "to": "t_0_6",
+      "troops": 131,
+      "formation": "balanced",
+      "tick": 132
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_6",
+      "to": "t_1_7",
+      "troops": 141,
+      "formation": "balanced",
+      "tick": 135
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_7",
+      "to": "t_3_8",
+      "troops": 171,
+      "formation": "balanced",
+      "tick": 138
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_7",
+      "to": "t_2_8",
+      "troops": 196,
+      "formation": "balanced",
+      "tick": 141
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_8",
+      "to": "t_4_9",
+      "troops": 223,
+      "formation": "balanced",
+      "tick": 144
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_8",
+      "to": "t_3_9",
+      "troops": 239,
+      "formation": "balanced",
+      "tick": 147
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_8",
+      "to": "t_2_9",
+      "troops": 268,
+      "formation": "balanced",
+      "tick": 150
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_8",
+      "to": "t_1_8",
+      "troops": 299,
+      "formation": "balanced",
+      "tick": 153
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_7",
+      "to": "t_0_7",
+      "troops": 330,
+      "formation": "balanced",
+      "tick": 156
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_8",
+      "to": "t_0_8",
+      "troops": 354,
+      "formation": "balanced",
+      "tick": 159
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_8",
+      "to": "t_1_9",
+      "troops": 392,
+      "formation": "balanced",
+      "tick": 162
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_9",
+      "to": "t_3_10",
+      "troops": 435,
+      "formation": "balanced",
+      "tick": 165
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_9",
+      "to": "t_2_10",
+      "troops": 482,
+      "formation": "balanced",
+      "tick": 168
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_9",
+      "to": "t_0_9",
+      "troops": 520,
+      "formation": "balanced",
+      "tick": 171
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_9",
+      "to": "t_1_10",
+      "troops": 571,
+      "formation": "balanced",
+      "tick": 174
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_10",
+      "to": "t_3_11",
+      "troops": 625,
+      "formation": "balanced",
+      "tick": 177
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_10",
+      "to": "t_2_11",
+      "troops": 685,
+      "formation": "balanced",
+      "tick": 180
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_10",
+      "to": "t_0_10",
+      "troops": 740,
+      "formation": "balanced",
+      "tick": 183
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_10",
+      "to": "t_1_11",
+      "troops": 809,
+      "formation": "balanced",
+      "tick": 186
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_10",
+      "to": "t_0_11",
+      "troops": 880,
+      "formation": "balanced",
+      "tick": 189
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_11",
+      "to": "t_2_12",
+      "troops": 962,
+      "formation": "balanced",
+      "tick": 192
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_11",
+      "to": "t_1_12",
+      "troops": 1037,
+      "formation": "balanced",
+      "tick": 195
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_11",
+      "to": "t_0_12",
+      "troops": 1127,
+      "formation": "balanced",
+      "tick": 198
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_12",
+      "to": "t_2_13",
+      "troops": 1226,
+      "formation": "balanced",
+      "tick": 201
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_12",
+      "to": "t_1_13",
+      "troops": 1334,
+      "formation": "balanced",
+      "tick": 204
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_12",
+      "to": "t_3_12",
+      "troops": 1438,
+      "formation": "balanced",
+      "tick": 207
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_10",
+      "to": "t_4_10",
+      "troops": 1570,
+      "formation": "balanced",
+      "tick": 210
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_9",
+      "to": "t_5_9",
+      "troops": 1708,
+      "formation": "balanced",
+      "tick": 213
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_7",
+      "to": "t_6_7",
+      "troops": 1870,
+      "formation": "balanced",
+      "tick": 216
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_5",
+      "to": "t_7_5",
+      "troops": 2047,
+      "formation": "balanced",
+      "tick": 219
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_6",
+      "to": "t_7_6",
+      "troops": 2220,
+      "formation": "balanced",
+      "tick": 222
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_7",
+      "to": "t_6_8",
+      "troops": 2407,
+      "formation": "balanced",
+      "tick": 225
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_9",
+      "to": "t_5_10",
+      "troops": 2612,
+      "formation": "balanced",
+      "tick": 228
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_10",
+      "to": "t_4_11",
+      "troops": 2824,
+      "formation": "balanced",
+      "tick": 231
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_12",
+      "to": "t_3_13",
+      "troops": 3063,
+      "formation": "balanced",
+      "tick": 234
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_12",
+      "to": "t_4_12",
+      "troops": 3318,
+      "formation": "balanced",
+      "tick": 237
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_11",
+      "to": "t_5_11",
+      "troops": 3596,
+      "formation": "balanced",
+      "tick": 240
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_9",
+      "to": "t_6_9",
+      "troops": 3895,
+      "formation": "balanced",
+      "tick": 243
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_7",
+      "to": "t_7_7",
+      "troops": 4224,
+      "formation": "balanced",
+      "tick": 246
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_5",
+      "to": "t_8_5",
+      "troops": 4582,
+      "formation": "balanced",
+      "tick": 249
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_4",
+      "to": "t_7_3",
+      "troops": 4966,
+      "formation": "balanced",
+      "tick": 252
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_2",
+      "to": "t_6_1",
+      "troops": 5380,
+      "formation": "balanced",
+      "tick": 255
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_0",
+      "to": "t_6_0",
+      "troops": 5820,
+      "formation": "balanced",
+      "tick": 258
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_2",
+      "to": "t_7_2",
+      "troops": 6304,
+      "formation": "balanced",
+      "tick": 261
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_4",
+      "to": "t_8_4",
+      "troops": 6829,
+      "formation": "balanced",
+      "tick": 264
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_3",
+      "to": "t_8_3",
+      "troops": 7373,
+      "formation": "balanced",
+      "tick": 267
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_2",
+      "to": "t_7_1",
+      "troops": 7973,
+      "formation": "balanced",
+      "tick": 270
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_0",
+      "to": "t_7_0",
+      "troops": 8621,
+      "formation": "balanced",
+      "tick": 273
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_2",
+      "to": "t_8_2",
+      "troops": 9328,
+      "formation": "balanced",
+      "tick": 276
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_4",
+      "to": "t_9_4",
+      "troops": 10080,
+      "formation": "balanced",
+      "tick": 279
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_3",
+      "to": "t_9_3",
+      "troops": 10896,
+      "formation": "balanced",
+      "tick": 282
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_2",
+      "to": "t_8_1",
+      "troops": 11777,
+      "formation": "balanced",
+      "tick": 285
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_0",
+      "to": "t_8_0",
+      "troops": 12729,
+      "formation": "balanced",
+      "tick": 288
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_2",
+      "to": "t_9_2",
+      "troops": 13753,
+      "formation": "balanced",
+      "tick": 291
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_1",
+      "to": "t_9_1",
+      "troops": 14863,
+      "formation": "balanced",
+      "tick": 294
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_3",
+      "to": "t_10_3",
+      "troops": 16064,
+      "formation": "balanced",
+      "tick": 297
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_2",
+      "to": "t_10_2",
+      "troops": 17361,
+      "formation": "balanced",
+      "tick": 300
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_1",
+      "to": "t_10_1",
+      "troops": 18750,
+      "formation": "balanced",
+      "tick": 303
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_1",
+      "to": "t_9_0",
+      "troops": 20260,
+      "formation": "balanced",
+      "tick": 306
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_1",
+      "to": "t_10_0",
+      "troops": 21887,
+      "formation": "balanced",
+      "tick": 309
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_2",
+      "to": "t_11_2",
+      "troops": 23648,
+      "formation": "balanced",
+      "tick": 312
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_3",
+      "to": "t_10_4",
+      "troops": 25540,
+      "formation": "balanced",
+      "tick": 315
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_4",
+      "to": "t_9_5",
+      "troops": 27596,
+      "formation": "balanced",
+      "tick": 318
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_5",
+      "to": "t_8_6",
+      "troops": 29816,
+      "formation": "balanced",
+      "tick": 321
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_7",
+      "to": "t_7_8",
+      "troops": 32214,
+      "formation": "balanced",
+      "tick": 324
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_9",
+      "to": "t_6_10",
+      "troops": 34800,
+      "formation": "balanced",
+      "tick": 327
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_11",
+      "to": "t_5_12",
+      "troops": 37597,
+      "formation": "balanced",
+      "tick": 330
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_12",
+      "to": "t_4_13",
+      "troops": 40617,
+      "formation": "balanced",
+      "tick": 333
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_13",
+      "to": "t_2_14",
+      "troops": 43878,
+      "formation": "balanced",
+      "tick": 336
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_13",
+      "to": "t_0_13",
+      "troops": 47388,
+      "formation": "balanced",
+      "tick": 339
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_13",
+      "to": "t_1_14",
+      "troops": 51189,
+      "formation": "balanced",
+      "tick": 342
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_13",
+      "to": "t_0_14",
+      "troops": 55291,
+      "formation": "balanced",
+      "tick": 345
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_14",
+      "to": "t_2_15",
+      "troops": 59723,
+      "formation": "balanced",
+      "tick": 348
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_14",
+      "to": "t_1_15",
+      "troops": 64499,
+      "formation": "balanced",
+      "tick": 351
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_14",
+      "to": "t_3_14",
+      "troops": 69669,
+      "formation": "balanced",
+      "tick": 354
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_13",
+      "to": "t_4_14",
+      "troops": 75255,
+      "formation": "balanced",
+      "tick": 357
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_14",
+      "to": "t_3_15",
+      "troops": 81288,
+      "formation": "balanced",
+      "tick": 360
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_15",
+      "to": "t_1_16",
+      "troops": 87794,
+      "formation": "balanced",
+      "tick": 363
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_15",
+      "to": "t_0_15",
+      "troops": 94825,
+      "formation": "balanced",
+      "tick": 366
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_15",
+      "to": "t_2_16",
+      "troops": 102417,
+      "formation": "balanced",
+      "tick": 369
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_15",
+      "to": "t_3_16",
+      "troops": 110620,
+      "formation": "balanced",
+      "tick": 372
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_16",
+      "to": "t_0_16",
+      "troops": 119469,
+      "formation": "balanced",
+      "tick": 375
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_16",
+      "to": "t_1_17",
+      "troops": 129034,
+      "formation": "balanced",
+      "tick": 378
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_16",
+      "to": "t_2_17",
+      "troops": 139368,
+      "formation": "balanced",
+      "tick": 381
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_16",
+      "to": "t_3_17",
+      "troops": 150524,
+      "formation": "balanced",
+      "tick": 384
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_15",
+      "to": "t_4_15",
+      "troops": 162570,
+      "formation": "balanced",
+      "tick": 387
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_13",
+      "to": "t_5_13",
+      "troops": 175593,
+      "formation": "balanced",
+      "tick": 390
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_11",
+      "to": "t_6_11",
+      "troops": 189658,
+      "formation": "balanced",
+      "tick": 393
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_9",
+      "to": "t_7_9",
+      "troops": 204848,
+      "formation": "balanced",
+      "tick": 396
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_7",
+      "to": "t_8_7",
+      "troops": 221248,
+      "formation": "balanced",
+      "tick": 399
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_6",
+      "to": "t_9_6",
+      "troops": 238961,
+      "formation": "balanced",
+      "tick": 402
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_5",
+      "to": "t_10_5",
+      "troops": 258091,
+      "formation": "balanced",
+      "tick": 405
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_3",
+      "to": "t_11_3",
+      "troops": 278756,
+      "formation": "balanced",
+      "tick": 408
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_4",
+      "to": "t_11_4",
+      "troops": 301054,
+      "formation": "balanced",
+      "tick": 411
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_5",
+      "to": "t_10_6",
+      "troops": 325148,
+      "formation": "balanced",
+      "tick": 414
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_6",
+      "to": "t_9_7",
+      "troops": 351173,
+      "formation": "balanced",
+      "tick": 417
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_7",
+      "to": "t_8_8",
+      "troops": 379280,
+      "formation": "balanced",
+      "tick": 420
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_9",
+      "to": "t_7_10",
+      "troops": 409631,
+      "formation": "balanced",
+      "tick": 423
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_11",
+      "to": "t_6_12",
+      "troops": 442414,
+      "formation": "balanced",
+      "tick": 426
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_13",
+      "to": "t_5_14",
+      "troops": 477820,
+      "formation": "balanced",
+      "tick": 429
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_15",
+      "to": "t_4_16",
+      "troops": 516058,
+      "formation": "balanced",
+      "tick": 432
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_17",
+      "to": "t_3_18",
+      "troops": 557348,
+      "formation": "balanced",
+      "tick": 435
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_17",
+      "to": "t_2_18",
+      "troops": 601945,
+      "formation": "balanced",
+      "tick": 438
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_17",
+      "to": "t_4_17",
+      "troops": 650112,
+      "formation": "balanced",
+      "tick": 441
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_15",
+      "to": "t_5_15",
+      "troops": 702139,
+      "formation": "balanced",
+      "tick": 444
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_13",
+      "to": "t_6_13",
+      "troops": 758322,
+      "formation": "balanced",
+      "tick": 447
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_11",
+      "to": "t_7_11",
+      "troops": 819005,
+      "formation": "balanced",
+      "tick": 450
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_9",
+      "to": "t_8_9",
+      "troops": 884543,
+      "formation": "balanced",
+      "tick": 453
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_8",
+      "to": "t_9_8",
+      "troops": 955319,
+      "formation": "balanced",
+      "tick": 456
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_7",
+      "to": "t_10_7",
+      "troops": 1031747,
+      "formation": "balanced",
+      "tick": 459
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_5",
+      "to": "t_11_5",
+      "troops": 1114304,
+      "formation": "balanced",
+      "tick": 462
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_6",
+      "to": "t_11_6",
+      "troops": 1203460,
+      "formation": "balanced",
+      "tick": 465
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_4",
+      "to": "t_12_4",
+      "troops": 1299751,
+      "formation": "balanced",
+      "tick": 468
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_3",
+      "to": "t_12_3",
+      "troops": 1403731,
+      "formation": "balanced",
+      "tick": 471
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_2",
+      "to": "t_11_1",
+      "troops": 1516039,
+      "formation": "balanced",
+      "tick": 474
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_0",
+      "to": "t_11_0",
+      "troops": 1637332,
+      "formation": "balanced",
+      "tick": 477
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_2",
+      "to": "t_12_2",
+      "troops": 1768336,
+      "formation": "balanced",
+      "tick": 480
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_4",
+      "to": "t_12_5",
+      "troops": 1909806,
+      "formation": "balanced",
+      "tick": 483
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_6",
+      "to": "t_11_7",
+      "troops": 2062603,
+      "formation": "balanced",
+      "tick": 486
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_7",
+      "to": "t_10_8",
+      "troops": 2227624,
+      "formation": "balanced",
+      "tick": 489
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_8",
+      "to": "t_9_9",
+      "troops": 2405847,
+      "formation": "balanced",
+      "tick": 492
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_9",
+      "to": "t_8_10",
+      "troops": 2598317,
+      "formation": "balanced",
+      "tick": 495
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_11",
+      "to": "t_7_12",
+      "troops": 2806195,
+      "formation": "balanced",
+      "tick": 498
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_13",
+      "to": "t_6_14",
+      "troops": 3030703,
+      "formation": "balanced",
+      "tick": 501
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_15",
+      "to": "t_5_16",
+      "troops": 3273172,
+      "formation": "balanced",
+      "tick": 504
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_17",
+      "to": "t_4_18",
+      "troops": 3535034,
+      "formation": "balanced",
+      "tick": 507
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_17",
+      "to": "t_5_17",
+      "troops": 3817846,
+      "formation": "balanced",
+      "tick": 510
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_15",
+      "to": "t_6_15",
+      "troops": 4123291,
+      "formation": "balanced",
+      "tick": 513
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_13",
+      "to": "t_7_13",
+      "troops": 4453172,
+      "formation": "balanced",
+      "tick": 516
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_11",
+      "to": "t_8_11",
+      "troops": 4809437,
+      "formation": "balanced",
+      "tick": 519
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_10",
+      "to": "t_9_10",
+      "troops": 5194205,
+      "formation": "balanced",
+      "tick": 522
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_9",
+      "to": "t_10_9",
+      "troops": 5609754,
+      "formation": "balanced",
+      "tick": 525
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_8",
+      "to": "t_11_8",
+      "troops": 6058547,
+      "formation": "balanced",
+      "tick": 528
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_6",
+      "to": "t_12_6",
+      "troops": 6543242,
+      "formation": "balanced",
+      "tick": 531
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_4",
+      "to": "t_13_4",
+      "troops": 7066716,
+      "formation": "balanced",
+      "tick": 534
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_3",
+      "to": "t_13_3",
+      "troops": 7632065,
+      "formation": "balanced",
+      "tick": 537
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_2",
+      "to": "t_12_1",
+      "troops": 8242640,
+      "formation": "balanced",
+      "tick": 540
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_0",
+      "to": "t_12_0",
+      "troops": 8902057,
+      "formation": "balanced",
+      "tick": 543
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_2",
+      "to": "t_13_2",
+      "troops": 9614233,
+      "formation": "balanced",
+      "tick": 546
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_1",
+      "to": "t_13_1",
+      "troops": 10383383,
+      "formation": "balanced",
+      "tick": 549
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_3",
+      "to": "t_14_3",
+      "troops": 11214065,
+      "formation": "balanced",
+      "tick": 552
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_4",
+      "to": "t_13_5",
+      "troops": 12111190,
+      "formation": "balanced",
+      "tick": 555
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_6",
+      "to": "t_12_7",
+      "troops": 13080098,
+      "formation": "balanced",
+      "tick": 558
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_8",
+      "to": "t_11_9",
+      "troops": 14126519,
+      "formation": "balanced",
+      "tick": 561
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_9",
+      "to": "t_10_10",
+      "troops": 15256653,
+      "formation": "balanced",
+      "tick": 564
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_10",
+      "to": "t_9_11",
+      "troops": 16477182,
+      "formation": "balanced",
+      "tick": 567
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_11",
+      "to": "t_8_12",
+      "troops": 17795369,
+      "formation": "balanced",
+      "tick": 570
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_13",
+      "to": "t_7_14",
+      "troops": 19219011,
+      "formation": "balanced",
+      "tick": 573
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_15",
+      "to": "t_6_16",
+      "troops": 20756545,
+      "formation": "balanced",
+      "tick": 576
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_17",
+      "to": "t_5_18",
+      "troops": 22417077,
+      "formation": "balanced",
+      "tick": 579
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_18",
+      "to": "t_3_19",
+      "troops": 24210455,
+      "formation": "balanced",
+      "tick": 582
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_18",
+      "to": "t_4_19",
+      "troops": 26147303,
+      "formation": "balanced",
+      "tick": 585
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_18",
+      "to": "t_5_19",
+      "troops": 28239094,
+      "formation": "balanced",
+      "tick": 588
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_17",
+      "to": "t_6_17",
+      "troops": 30498225,
+      "formation": "balanced",
+      "tick": 591
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_15",
+      "to": "t_7_15",
+      "troops": 32938101,
+      "formation": "balanced",
+      "tick": 594
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_13",
+      "to": "t_8_13",
+      "troops": 35573167,
+      "formation": "balanced",
+      "tick": 597
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_12",
+      "to": "t_9_12",
+      "troops": 38419033,
+      "formation": "balanced",
+      "tick": 600
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_11",
+      "to": "t_10_11",
+      "troops": 41492562,
+      "formation": "balanced",
+      "tick": 603
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_10",
+      "to": "t_11_10",
+      "troops": 44811980,
+      "formation": "balanced",
+      "tick": 606
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_8",
+      "to": "t_12_8",
+      "troops": 48396956,
+      "formation": "balanced",
+      "tick": 609
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_6",
+      "to": "t_13_6",
+      "troops": 52268730,
+      "formation": "balanced",
+      "tick": 612
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_4",
+      "to": "t_14_4",
+      "troops": 56450240,
+      "formation": "balanced",
+      "tick": 615
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_5",
+      "to": "t_14_5",
+      "troops": 60966269,
+      "formation": "balanced",
+      "tick": 618
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_6",
+      "to": "t_13_7",
+      "troops": 65843580,
+      "formation": "balanced",
+      "tick": 621
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_8",
+      "to": "t_12_9",
+      "troops": 71111079,
+      "formation": "balanced",
+      "tick": 624
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_10",
+      "to": "t_11_11",
+      "troops": 76799978,
+      "formation": "balanced",
+      "tick": 627
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_11",
+      "to": "t_10_12",
+      "troops": 82943989,
+      "formation": "balanced",
+      "tick": 630
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_12",
+      "to": "t_9_13",
+      "troops": 89579521,
+      "formation": "balanced",
+      "tick": 633
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_13",
+      "to": "t_8_14",
+      "troops": 96745895,
+      "formation": "balanced",
+      "tick": 636
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_15",
+      "to": "t_7_16",
+      "troops": 104485575,
+      "formation": "balanced",
+      "tick": 639
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_17",
+      "to": "t_6_18",
+      "troops": 112844434,
+      "formation": "balanced",
+      "tick": 642
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_19",
+      "to": "t_5_20",
+      "troops": 121871998,
+      "formation": "balanced",
+      "tick": 645
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_19",
+      "to": "t_4_20",
+      "troops": 131621768,
+      "formation": "balanced",
+      "tick": 648
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_19",
+      "to": "t_2_19",
+      "troops": 142151509,
+      "formation": "balanced",
+      "tick": 651
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_18",
+      "to": "t_1_18",
+      "troops": 153523642,
+      "formation": "balanced",
+      "tick": 654
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_17",
+      "to": "t_0_17",
+      "troops": 165805546,
+      "formation": "balanced",
+      "tick": 657
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_17",
+      "to": "t_0_18",
+      "troops": 179070000,
+      "formation": "balanced",
+      "tick": 660
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_18",
+      "to": "t_1_19",
+      "troops": 193395602,
+      "formation": "balanced",
+      "tick": 663
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_19",
+      "to": "t_3_20",
+      "troops": 208867268,
+      "formation": "balanced",
+      "tick": 666
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_19",
+      "to": "t_2_20",
+      "troops": 225576661,
+      "formation": "balanced",
+      "tick": 669
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_20",
+      "to": "t_4_21",
+      "troops": 243622806,
+      "formation": "balanced",
+      "tick": 672
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_20",
+      "to": "t_3_21",
+      "troops": 263112628,
+      "formation": "balanced",
+      "tick": 675
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_20",
+      "to": "t_1_20",
+      "troops": 284161648,
+      "formation": "balanced",
+      "tick": 678
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_19",
+      "to": "t_0_19",
+      "troops": 306894593,
+      "formation": "balanced",
+      "tick": 681
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_19",
+      "to": "t_0_20",
+      "troops": 331446167,
+      "formation": "balanced",
+      "tick": 684
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_20",
+      "to": "t_2_21",
+      "troops": 357961869,
+      "formation": "balanced",
+      "tick": 687
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_20",
+      "to": "t_1_21",
+      "troops": 386598828,
+      "formation": "balanced",
+      "tick": 690
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_21",
+      "to": "t_3_22",
+      "troops": 417526746,
+      "formation": "balanced",
+      "tick": 693
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_21",
+      "to": "t_2_22",
+      "troops": 450928897,
+      "formation": "balanced",
+      "tick": 696
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_21",
+      "to": "t_0_21",
+      "troops": 487003208,
+      "formation": "balanced",
+      "tick": 699
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_21",
+      "to": "t_1_22",
+      "troops": 525963474,
+      "formation": "balanced",
+      "tick": 702
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_22",
+      "to": "t_3_23",
+      "troops": 568040561,
+      "formation": "balanced",
+      "tick": 705
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_22",
+      "to": "t_2_23",
+      "troops": 613483816,
+      "formation": "balanced",
+      "tick": 708
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_22",
+      "to": "t_0_22",
+      "troops": 662562521,
+      "formation": "balanced",
+      "tick": 711
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_22",
+      "to": "t_1_23",
+      "troops": 715567532,
+      "formation": "balanced",
+      "tick": 714
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_22",
+      "to": "t_0_23",
+      "troops": 772812941,
+      "formation": "balanced",
+      "tick": 717
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_23",
+      "to": "t_2_24",
+      "troops": 834637988,
+      "formation": "balanced",
+      "tick": 720
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_23",
+      "to": "t_1_24",
+      "troops": 901409020,
+      "formation": "balanced",
+      "tick": 723
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_23",
+      "to": "t_0_24",
+      "troops": 973521743,
+      "formation": "balanced",
+      "tick": 726
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_24",
+      "to": "t_2_25",
+      "troops": 1051403487,
+      "formation": "balanced",
+      "tick": 729
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_24",
+      "to": "t_1_25",
+      "troops": 1135515771,
+      "formation": "balanced",
+      "tick": 732
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_24",
+      "to": "t_3_24",
+      "troops": 1226357026,
+      "formation": "balanced",
+      "tick": 735
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_22",
+      "to": "t_4_22",
+      "troops": 1324465600,
+      "formation": "balanced",
+      "tick": 738
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_23",
+      "to": "t_4_23",
+      "troops": 1430422861,
+      "formation": "balanced",
+      "tick": 741
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_21",
+      "to": "t_5_21",
+      "troops": 1544856708,
+      "formation": "balanced",
+      "tick": 744
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_19",
+      "to": "t_6_19",
+      "troops": 1668445256,
+      "formation": "balanced",
+      "tick": 747
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_17",
+      "to": "t_7_17",
+      "troops": 1801920894,
+      "formation": "balanced",
+      "tick": 750
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_15",
+      "to": "t_8_15",
+      "troops": 1946074578,
+      "formation": "balanced",
+      "tick": 753
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_14",
+      "to": "t_9_14",
+      "troops": 2101760557,
+      "formation": "balanced",
+      "tick": 756
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_13",
+      "to": "t_10_13",
+      "troops": 2269901404,
+      "formation": "balanced",
+      "tick": 759
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_12",
+      "to": "t_11_12",
+      "troops": 2451493533,
+      "formation": "balanced",
+      "tick": 762
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_10",
+      "to": "t_12_10",
+      "troops": 2647613033,
+      "formation": "balanced",
+      "tick": 765
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_8",
+      "to": "t_13_8",
+      "troops": 2859422093,
+      "formation": "balanced",
+      "tick": 768
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_6",
+      "to": "t_14_6",
+      "troops": 3088175872,
+      "formation": "balanced",
+      "tick": 771
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_4",
+      "to": "t_15_4",
+      "troops": 3335229953,
+      "formation": "balanced",
+      "tick": 774
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_5",
+      "to": "t_15_5",
+      "troops": 3602048361,
+      "formation": "balanced",
+      "tick": 777
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_6",
+      "to": "t_14_7",
+      "troops": 3890212240,
+      "formation": "balanced",
+      "tick": 780
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_8",
+      "to": "t_13_9",
+      "troops": 4201429228,
+      "formation": "balanced",
+      "tick": 783
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_10",
+      "to": "t_12_11",
+      "troops": 4537543583,
+      "formation": "balanced",
+      "tick": 786
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_12",
+      "to": "t_11_13",
+      "troops": 4900547082,
+      "formation": "balanced",
+      "tick": 789
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_13",
+      "to": "t_10_14",
+      "troops": 5292590861,
+      "formation": "balanced",
+      "tick": 792
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_14",
+      "to": "t_9_15",
+      "troops": 5715998133,
+      "formation": "balanced",
+      "tick": 795
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_15",
+      "to": "t_8_16",
+      "troops": 6173277996,
+      "formation": "balanced",
+      "tick": 798
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_17",
+      "to": "t_7_18",
+      "troops": 6667140252,
+      "formation": "balanced",
+      "tick": 801
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_19",
+      "to": "t_6_20",
+      "troops": 7200511485,
+      "formation": "balanced",
+      "tick": 804
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_21",
+      "to": "t_5_22",
+      "troops": 7776552412,
+      "formation": "balanced",
+      "tick": 807
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_23",
+      "to": "t_5_23",
+      "troops": 8398676622,
+      "formation": "balanced",
+      "tick": 810
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_21",
+      "to": "t_6_21",
+      "troops": 9070570769,
+      "formation": "balanced",
+      "tick": 813
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_19",
+      "to": "t_7_19",
+      "troops": 9796216448,
+      "formation": "balanced",
+      "tick": 816
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_17",
+      "to": "t_8_17",
+      "troops": 10579913780,
+      "formation": "balanced",
+      "tick": 819
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_16",
+      "to": "t_9_16",
+      "troops": 11426306895,
+      "formation": "balanced",
+      "tick": 822
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_15",
+      "to": "t_10_15",
+      "troops": 12340411459,
+      "formation": "balanced",
+      "tick": 825
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_14",
+      "to": "t_11_14",
+      "troops": 13327644388,
+      "formation": "balanced",
+      "tick": 828
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_12",
+      "to": "t_12_12",
+      "troops": 14393855951,
+      "formation": "balanced",
+      "tick": 831
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_10",
+      "to": "t_13_10",
+      "troops": 15545364449,
+      "formation": "balanced",
+      "tick": 834
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_8",
+      "to": "t_14_8",
+      "troops": 16788993623,
+      "formation": "balanced",
+      "tick": 837
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_6",
+      "to": "t_15_6",
+      "troops": 18132113131,
+      "formation": "balanced",
+      "tick": 840
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_4",
+      "to": "t_15_3",
+      "troops": 19582682184,
+      "formation": "balanced",
+      "tick": 843
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_3",
+      "to": "t_14_2",
+      "troops": 21149296771,
+      "formation": "balanced",
+      "tick": 846
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_1",
+      "to": "t_13_0",
+      "troops": 22841240525,
+      "formation": "balanced",
+      "tick": 849
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_1",
+      "to": "t_14_1",
+      "troops": 24668539777,
+      "formation": "balanced",
+      "tick": 852
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_2",
+      "to": "t_15_2",
+      "troops": 26642022962,
+      "formation": "balanced",
+      "tick": 855
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_4",
+      "to": "t_16_4",
+      "troops": 28773384814,
+      "formation": "balanced",
+      "tick": 858
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_3",
+      "to": "t_16_3",
+      "troops": 31075255611,
+      "formation": "balanced",
+      "tick": 861
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_2",
+      "to": "t_15_1",
+      "troops": 33561276070,
+      "formation": "balanced",
+      "tick": 864
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_1",
+      "to": "t_14_0",
+      "troops": 36246178158,
+      "formation": "balanced",
+      "tick": 867
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_0",
+      "to": "t_15_0",
+      "troops": 39145872417,
+      "formation": "balanced",
+      "tick": 870
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_2",
+      "to": "t_16_2",
+      "troops": 42277542228,
+      "formation": "balanced",
+      "tick": 873
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_1",
+      "to": "t_16_1",
+      "troops": 45659745618,
+      "formation": "balanced",
+      "tick": 876
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_3",
+      "to": "t_17_3",
+      "troops": 49312525270,
+      "formation": "balanced",
+      "tick": 879
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_2",
+      "to": "t_17_2",
+      "troops": 53257527301,
+      "formation": "balanced",
+      "tick": 882
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_1",
+      "to": "t_16_0",
+      "troops": 57518129495,
+      "formation": "balanced",
+      "tick": 885
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_1",
+      "to": "t_17_1",
+      "troops": 62119579864,
+      "formation": "balanced",
+      "tick": 888
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_3",
+      "to": "t_17_4",
+      "troops": 67089146256,
+      "formation": "balanced",
+      "tick": 891
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_4",
+      "to": "t_16_5",
+      "troops": 72456277969,
+      "formation": "balanced",
+      "tick": 894
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_6",
+      "to": "t_15_7",
+      "troops": 78252780219,
+      "formation": "balanced",
+      "tick": 897
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_8",
+      "to": "t_14_9",
+      "troops": 84513002649,
+      "formation": "balanced",
+      "tick": 900
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_10",
+      "to": "t_13_11",
+      "troops": 91274042870,
+      "formation": "balanced",
+      "tick": 903
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_12",
+      "to": "t_12_13",
+      "troops": 98575966312,
+      "formation": "balanced",
+      "tick": 906
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_14",
+      "to": "t_11_15",
+      "troops": 106462043630,
+      "formation": "balanced",
+      "tick": 909
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_15",
+      "to": "t_10_16",
+      "troops": 114979007133,
+      "formation": "balanced",
+      "tick": 912
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_16",
+      "to": "t_9_17",
+      "troops": 124177327706,
+      "formation": "balanced",
+      "tick": 915
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_17",
+      "to": "t_8_18",
+      "troops": 134111513939,
+      "formation": "balanced",
+      "tick": 918
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_19",
+      "to": "t_7_20",
+      "troops": 144840435067,
+      "formation": "balanced",
+      "tick": 921
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_21",
+      "to": "t_6_22",
+      "troops": 156427669885,
+      "formation": "balanced",
+      "tick": 924
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_23",
+      "to": "t_6_23",
+      "troops": 168941883481,
+      "formation": "balanced",
+      "tick": 927
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_23",
+      "to": "t_4_24",
+      "troops": 182457234178,
+      "formation": "balanced",
+      "tick": 930
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_24",
+      "to": "t_3_25",
+      "troops": 197053812932,
+      "formation": "balanced",
+      "tick": 933
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_25",
+      "to": "t_0_25",
+      "troops": 212818117978,
+      "formation": "balanced",
+      "tick": 936
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_25",
+      "to": "t_2_26",
+      "troops": 229843567409,
+      "formation": "balanced",
+      "tick": 939
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_25",
+      "to": "t_3_26",
+      "troops": 248231052808,
+      "formation": "balanced",
+      "tick": 942
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_25",
+      "to": "t_4_25",
+      "troops": 268089537037,
+      "formation": "balanced",
+      "tick": 945
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_24",
+      "to": "t_5_24",
+      "troops": 289536700008,
+      "formation": "balanced",
+      "tick": 948
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_23",
+      "to": "t_7_23",
+      "troops": 312699636009,
+      "formation": "balanced",
+      "tick": 951
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_22",
+      "to": "t_7_22",
+      "troops": 337715606901,
+      "formation": "balanced",
+      "tick": 954
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_21",
+      "to": "t_7_21",
+      "troops": 364732855471,
+      "formation": "balanced",
+      "tick": 957
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_19",
+      "to": "t_8_19",
+      "troops": 393911483930,
+      "formation": "balanced",
+      "tick": 960
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_18",
+      "to": "t_9_18",
+      "troops": 425424402647,
+      "formation": "balanced",
+      "tick": 963
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_17",
+      "to": "t_10_17",
+      "troops": 459458354871,
+      "formation": "balanced",
+      "tick": 966
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_16",
+      "to": "t_11_16",
+      "troops": 496215023259,
+      "formation": "balanced",
+      "tick": 969
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_14",
+      "to": "t_12_14",
+      "troops": 535912225137,
+      "formation": "balanced",
+      "tick": 972
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_12",
+      "to": "t_13_12",
+      "troops": 578785203160,
+      "formation": "balanced",
+      "tick": 975
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_10",
+      "to": "t_14_10",
+      "troops": 625088019425,
+      "formation": "balanced",
+      "tick": 978
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_8",
+      "to": "t_15_8",
+      "troops": 675095060997,
+      "formation": "balanced",
+      "tick": 981
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_6",
+      "to": "t_16_6",
+      "troops": 729102665894,
+      "formation": "balanced",
+      "tick": 984
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_5",
+      "to": "t_17_5",
+      "troops": 787430879168,
+      "formation": "balanced",
+      "tick": 987
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_3",
+      "to": "t_18_3",
+      "troops": 850425349516,
+      "formation": "balanced",
+      "tick": 990
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_2",
+      "to": "t_18_2",
+      "troops": 918459377489,
+      "formation": "balanced",
+      "tick": 993
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_1",
+      "to": "t_17_0",
+      "troops": 991936127698,
+      "formation": "balanced",
+      "tick": 996
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_0",
+      "to": "t_18_0",
+      "troops": 1071291017911,
+      "formation": "balanced",
+      "tick": 999
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_1",
+      "to": "t_18_1",
+      "troops": 1156994299356,
+      "formation": "balanced",
+      "tick": 1002
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_18_1",
+      "to": "t_19_1",
+      "troops": 1249553843307,
+      "formation": "balanced",
+      "tick": 1005
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_18_2",
+      "to": "t_19_2",
+      "troops": 1349518150783,
+      "formation": "balanced",
+      "tick": 1008
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_18_3",
+      "to": "t_18_4",
+      "troops": 1457479602845,
+      "formation": "balanced",
+      "tick": 1011
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_5",
+      "to": "t_17_6",
+      "troops": 1574077971085,
+      "formation": "balanced",
+      "tick": 1014
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_6",
+      "to": "t_16_7",
+      "troops": 1700004208784,
+      "formation": "balanced",
+      "tick": 1017
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_8",
+      "to": "t_15_9",
+      "troops": 1836004545499,
+      "formation": "balanced",
+      "tick": 1020
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_10",
+      "to": "t_14_11",
+      "troops": 1982884909148,
+      "formation": "balanced",
+      "tick": 1023
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_12",
+      "to": "t_13_13",
+      "troops": 2141515701897,
+      "formation": "balanced",
+      "tick": 1026
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_14",
+      "to": "t_12_15",
+      "troops": 2312836958061,
+      "formation": "balanced",
+      "tick": 1029
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_16",
+      "to": "t_11_17",
+      "troops": 2497863914731,
+      "formation": "balanced",
+      "tick": 1032
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_17",
+      "to": "t_10_18",
+      "troops": 2697693027912,
+      "formation": "balanced",
+      "tick": 1035
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_18",
+      "to": "t_9_19",
+      "troops": 2913508470158,
+      "formation": "balanced",
+      "tick": 1038
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_19",
+      "to": "t_8_20",
+      "troops": 3146589147783,
+      "formation": "balanced",
+      "tick": 1041
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_21",
+      "to": "t_8_21",
+      "troops": 3398316279624,
+      "formation": "balanced",
+      "tick": 1044
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_7_22",
+      "to": "t_8_22",
+      "troops": 3670181581994,
+      "formation": "balanced",
+      "tick": 1047
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_20",
+      "to": "t_9_20",
+      "troops": 3963796108568,
+      "formation": "balanced",
+      "tick": 1050
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_19",
+      "to": "t_10_19",
+      "troops": 4280899797266,
+      "formation": "balanced",
+      "tick": 1053
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_18",
+      "to": "t_11_18",
+      "troops": 4623371781067,
+      "formation": "balanced",
+      "tick": 1056
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_16",
+      "to": "t_12_16",
+      "troops": 4993241523564,
+      "formation": "balanced",
+      "tick": 1059
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_14",
+      "to": "t_13_14",
+      "troops": 5392700845467,
+      "formation": "balanced",
+      "tick": 1062
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_12",
+      "to": "t_14_12",
+      "troops": 5824116913126,
+      "formation": "balanced",
+      "tick": 1065
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_10",
+      "to": "t_15_10",
+      "troops": 6290046266194,
+      "formation": "balanced",
+      "tick": 1068
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_8",
+      "to": "t_16_8",
+      "troops": 6793249967501,
+      "formation": "balanced",
+      "tick": 1071
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_7",
+      "to": "t_17_7",
+      "troops": 7336709964914,
+      "formation": "balanced",
+      "tick": 1074
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_5",
+      "to": "t_18_5",
+      "troops": 7923646762125,
+      "formation": "balanced",
+      "tick": 1077
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_18_3",
+      "to": "t_19_3",
+      "troops": 8557538503117,
+      "formation": "balanced",
+      "tick": 1080
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_19_1",
+      "to": "t_19_0",
+      "troops": 9242141583369,
+      "formation": "balanced",
+      "tick": 1083
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_19_1",
+      "to": "t_20_1",
+      "troops": 9981512910046,
+      "formation": "balanced",
+      "tick": 1086
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_19_2",
+      "to": "t_20_2",
+      "troops": 10780033942861,
+      "formation": "balanced",
+      "tick": 1089
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_19_3",
+      "to": "t_19_4",
+      "troops": 11642436658300,
+      "formation": "balanced",
+      "tick": 1092
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_18_5",
+      "to": "t_18_6",
+      "troops": 12573831590973,
+      "formation": "balanced",
+      "tick": 1095
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_17_7",
+      "to": "t_17_8",
+      "troops": 13579738118264,
+      "formation": "balanced",
+      "tick": 1098
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_16_8",
+      "to": "t_16_9",
+      "troops": 14666117167738,
+      "formation": "balanced",
+      "tick": 1101
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_15_10",
+      "to": "t_15_11",
+      "troops": 15839406541170,
+      "formation": "balanced",
+      "tick": 1104
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_14_12",
+      "to": "t_14_13",
+      "troops": 17106559064476,
+      "formation": "balanced",
+      "tick": 1107
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_13_14",
+      "to": "t_13_15",
+      "troops": 18475083789647,
+      "formation": "balanced",
+      "tick": 1110
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_12_16",
+      "to": "t_12_17",
+      "troops": 19953090492831,
+      "formation": "balanced",
+      "tick": 1113
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_11_18",
+      "to": "t_11_19",
+      "troops": 21549337732282,
+      "formation": "balanced",
+      "tick": 1116
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_10_19",
+      "to": "t_10_20",
+      "troops": 23273284750867,
+      "formation": "balanced",
+      "tick": 1119
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_9_20",
+      "to": "t_9_21",
+      "troops": 25135147530949,
+      "formation": "balanced",
+      "tick": 1122
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_8_22",
+      "to": "t_8_23",
+      "troops": 27145959333438,
+      "formation": "balanced",
+      "tick": 1125
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_23",
+      "to": "t_6_24",
+      "troops": 29317636080135,
+      "formation": "balanced",
+      "tick": 1128
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_24",
+      "to": "t_5_25",
+      "troops": 31663046966556,
+      "formation": "balanced",
+      "tick": 1131
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_25",
+      "to": "t_4_26",
+      "troops": 34196090723900,
+      "formation": "balanced",
+      "tick": 1134
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_26",
+      "to": "t_1_26",
+      "troops": 36931777981828,
+      "formation": "balanced",
+      "tick": 1137
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_25",
+      "to": "t_0_26",
+      "troops": 39886320220391,
+      "formation": "balanced",
+      "tick": 1140
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_26",
+      "to": "t_2_27",
+      "troops": 43077225838021,
+      "formation": "balanced",
+      "tick": 1143
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_26",
+      "to": "t_3_27",
+      "troops": 46523403905076,
+      "formation": "balanced",
+      "tick": 1146
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_26",
+      "to": "t_4_27",
+      "troops": 50245276217495,
+      "formation": "balanced",
+      "tick": 1149
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_27",
+      "to": "t_1_27",
+      "troops": 54264898314901,
+      "formation": "balanced",
+      "tick": 1152
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_26",
+      "to": "t_0_27",
+      "troops": 58606090180106,
+      "formation": "balanced",
+      "tick": 1155
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_27",
+      "to": "t_2_28",
+      "troops": 63294577394519,
+      "formation": "balanced",
+      "tick": 1158
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_27",
+      "to": "t_3_28",
+      "troops": 68358143586093,
+      "formation": "balanced",
+      "tick": 1161
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_27",
+      "to": "t_4_28",
+      "troops": 73826795072986,
+      "formation": "balanced",
+      "tick": 1164
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_26",
+      "to": "t_5_26",
+      "troops": 79732938678832,
+      "formation": "balanced",
+      "tick": 1167
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_25",
+      "to": "t_6_25",
+      "troops": 86111573773154,
+      "formation": "balanced",
+      "tick": 1170
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_24",
+      "to": "t_7_24",
+      "troops": 93000499675014,
+      "formation": "balanced",
+      "tick": 1173
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_6_25",
+      "to": "t_6_26",
+      "troops": 100440539649022,
+      "formation": "balanced",
+      "tick": 1176
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_5_26",
+      "to": "t_5_27",
+      "troops": 108475782820949,
+      "formation": "balanced",
+      "tick": 1179
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_4_28",
+      "to": "t_4_29",
+      "troops": 117153845446646,
+      "formation": "balanced",
+      "tick": 1182
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_3_28",
+      "to": "t_3_29",
+      "troops": 126526153082388,
+      "formation": "balanced",
+      "tick": 1185
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_28",
+      "to": "t_1_28",
+      "troops": 136648245328992,
+      "formation": "balanced",
+      "tick": 1188
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_0_27",
+      "to": "t_0_28",
+      "troops": 147580104955328,
+      "formation": "balanced",
+      "tick": 1191
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_2_28",
+      "to": "t_2_29",
+      "troops": 159386513351761,
+      "formation": "balanced",
+      "tick": 1194
+    },
+    {
+      "type": "march",
+      "playerId": "player",
+      "from": "t_1_28",
+      "to": "t_1_29",
+      "troops": 172137434419911,
+      "formation": "balanced",
+      "tick": 1197
+    }
+  ],
+  "checkpoints": [
+    {
+      "tick": 0,
+      "hash": "c3469824"
+    },
+    {
+      "tick": 50,
+      "hash": "7033d169"
+    },
+    {
+      "tick": 100,
+      "hash": "e53348c5"
+    },
+    {
+      "tick": 150,
+      "hash": "7e51a6d8"
+    },
+    {
+      "tick": 200,
+      "hash": "77ec894f"
+    },
+    {
+      "tick": 250,
+      "hash": "8e70d05d"
+    },
+    {
+      "tick": 300,
+      "hash": "0e02931c"
+    },
+    {
+      "tick": 350,
+      "hash": "47d79c6e"
+    },
+    {
+      "tick": 400,
+      "hash": "ecd1dbed"
+    },
+    {
+      "tick": 450,
+      "hash": "ab96e236"
+    },
+    {
+      "tick": 500,
+      "hash": "04f96873"
+    },
+    {
+      "tick": 550,
+      "hash": "26aa5b07"
+    },
+    {
+      "tick": 600,
+      "hash": "44a9364c"
+    },
+    {
+      "tick": 650,
+      "hash": "3f343e21"
+    },
+    {
+      "tick": 700,
+      "hash": "2865db62"
+    },
+    {
+      "tick": 750,
+      "hash": "39b6e9f6"
+    },
+    {
+      "tick": 800,
+      "hash": "e2935afc"
+    },
+    {
+      "tick": 850,
+      "hash": "730a55c7"
+    },
+    {
+      "tick": 900,
+      "hash": "46175401"
+    },
+    {
+      "tick": 950,
+      "hash": "16747980"
+    },
+    {
+      "tick": 1000,
+      "hash": "ed2740d1"
+    },
+    {
+      "tick": 1050,
+      "hash": "d74560cb"
+    },
+    {
+      "tick": 1100,
+      "hash": "c22417d1"
+    },
+    {
+      "tick": 1150,
+      "hash": "0c8c9c46"
+    },
+    {
+      "tick": 1200,
+      "hash": "f29861af"
+    }
+  ],
+  "final": {
+    "tick": 1200,
+    "status": "timeout",
+    "hash": "f29861af",
+    "playerTiles": 409,
+    "npcTiles": 5
+  }
+}
