@@ -1,0 +1,72 @@
+{
+  "version": "2.0.0",
+  "region": "continental_world",
+  "generatedAt": "2026-11-02T20:14:14.071Z",
+  "models": {
+    "fortress": {
+      "file": "/assets/models/fortress_sol_heights.glb",
+      "name": "Sol Heights Imperial Bastion",
+      "category": "landmark"
+    },
+    "quarry": {
+      "file": "/assets/models/quarry_sol_heights.glb",
+      "name": "Terraced Highland Quarry",
+      "category": "landmark"
+    },
+    "pineTreeA": {
+      "file": "/assets/models/pine_tree_a.glb",
+      "name": "Mountain Pine A",
+      "category": "foliage"
+    },
+    "pineTreeB": {
+      "file": "/assets/models/pine_tree_b.glb",
+      "name": "Highland Pine B",
+      "category": "foliage"
+    },
+    "rockOutcrop": {
+      "file": "/assets/models/rock_outcrop.glb",
+      "name": "Limestone Crag Outcrop",
+      "category": "geology"
+    },
+    "foliageTuft": {
+      "file": "/assets/models/foliage_tuft.glb",
+      "name": "Heath Shrub Tuft",
+      "category": "foliage"
+    },
+    "monsterLair": {
+      "file": "/assets/models/monster_lair.glb",
+      "name": "Volcanic Cinder Lair",
+      "category": "landmark"
+    },
+    "ancientRuin": {
+      "file": "/assets/models/ancient_ruin.glb",
+      "name": "Sunken Aether Shrine",
+      "category": "landmark"
+    },
+    "ironForge": {
+      "file": "/assets/models/iron_forge.glb",
+      "name": "Iron Smelting Forge",
+      "category": "landmark"
+    },
+    "farmland": {
+      "file": "/assets/models/farmland.glb",
+      "name": "Farmland Windmill & Crops",
+      "category": "landmark"
+    },
+    "lumberMill": {
+      "file": "/assets/models/lumber_mill.glb",
+      "name": "Timber Log Sawmill",
+      "category": "landmark"
+    },
+    "rivalCitadel": {
+      "file": "/assets/models/rival_citadel.glb",
+      "name": "Obsidian Spire Fortress",
+      "category": "landmark"
+    },
+    "allianceOutpost": {
+      "file": "/assets/models/alliance_outpost.glb",
+      "name": "Crimson Alliance Redoubt",
+      "category": "landmark"
+    }
+  }
+}

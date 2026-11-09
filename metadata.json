@@ -1,0 +1,6 @@
+{
+  "name": "Kingdom Conquest III",
+  "description": "Tactical real-time strategy, card collecting, deep diplomacy, land conquest, and action dungeons on mobile and cross-platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,10 @@
+Rule,Value / Interpretation
+Attacker element,Row of ELEMENT MATCHUPS
+Defender element,Column of ELEMENT MATCHUPS
+Attacker family,Row of FAMILY MATCHUPS
+Defender family,Column of FAMILY MATCHUPS
+Final attack multiplier,Base damage × (1 + element modifier) × (1 + family modifier)
+Best combined matchup,1.20 × 1.12 = 1.344 (34.4% bonus)
+Worst combined matchup,0.85 × 0.90 = 0.765 (23.5% reduction)
+Neutral matchups,0% additional attack modification
+Design status,PROPOSED. No battle simulation / balance QA performed

@@ -1,0 +1,361 @@
+{
+  "verifier": "sd-verify/1",
+  "seed": "shattered-dominion-world-v2",
+  "result": "PASS",
+  "summary": {
+    "total": 34,
+    "passed": 34,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "id": "W1",
+      "name": "grid dimensions multiply to total territories",
+      "status": "PASS",
+      "expected": 10000,
+      "actual": 10000
+    },
+    {
+      "id": "W2",
+      "name": "generated tile count equals total territories",
+      "status": "PASS",
+      "expected": 10000,
+      "actual": 10000
+    },
+    {
+      "id": "W3",
+      "name": "coordinates are unique and inside the grid",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "W6",
+      "name": "six mythical towers at the agreed coordinates",
+      "status": "PASS",
+      "expected": [
+        [
+          22,
+          22
+        ],
+        [
+          22,
+          77
+        ],
+        [
+          46,
+          49
+        ],
+        [
+          53,
+          49
+        ],
+        [
+          77,
+          22
+        ],
+        [
+          77,
+          77
+        ]
+      ],
+      "actual": [
+        [
+          22,
+          22
+        ],
+        [
+          22,
+          77
+        ],
+        [
+          46,
+          49
+        ],
+        [
+          53,
+          49
+        ],
+        [
+          77,
+          22
+        ],
+        [
+          77,
+          77
+        ]
+      ]
+    },
+    {
+      "id": "W4",
+      "name": "world fingerprint matches the golden value for the canonical seed",
+      "status": "PASS",
+      "expected": "faf16574710b5b880926f45fc78cfbec5fae2eb21233d2b6765c8231459dfa81",
+      "actual": "faf16574710b5b880926f45fc78cfbec5fae2eb21233d2b6765c8231459dfa81"
+    },
+    {
+      "id": "W5",
+      "name": "two generations from the same seed are identical",
+      "status": "PASS",
+      "expected": "faf16574710b5b880926f45fc78cfbec5fae2eb21233d2b6765c8231459dfa81",
+      "actual": "faf16574710b5b880926f45fc78cfbec5fae2eb21233d2b6765c8231459dfa81"
+    },
+    {
+      "id": "S1",
+      "name": "current save key is v6",
+      "status": "PASS",
+      "expected": "kc3_sovereign_save_v6",
+      "actual": "kc3_sovereign_save_v6"
+    },
+    {
+      "id": "C1",
+      "name": "creature count",
+      "status": "PASS",
+      "expected": 432,
+      "actual": 432
+    },
+    {
+      "id": "C2",
+      "name": "creature IDs are unique and well-formed",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "C3",
+      "name": "creature names are unique",
+      "status": "PASS",
+      "expected": 432,
+      "actual": 432
+    },
+    {
+      "id": "C4",
+      "name": "creatures per rarity match the rarity table",
+      "status": "PASS",
+      "expected": {
+        "common": 168,
+        "uncommon": 120,
+        "rare": 72,
+        "epic": 36,
+        "legendary": 24,
+        "mythical": 12
+      },
+      "actual": {
+        "common": 168,
+        "uncommon": 120,
+        "rare": 72,
+        "epic": 36,
+        "legendary": 24,
+        "mythical": 12
+      }
+    },
+    {
+      "id": "C5",
+      "name": "12 families and 12 elements",
+      "status": "PASS",
+      "expected": {
+        "families": 12,
+        "elements": 12
+      },
+      "actual": {
+        "families": 12,
+        "elements": 12
+      }
+    },
+    {
+      "id": "C6",
+      "name": "every family holds 36 creatures",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "P0",
+      "name": "rarity table lists all six tiers",
+      "status": "PASS",
+      "expected": 6,
+      "actual": 6
+    },
+    {
+      "id": "P1",
+      "name": "tier pull rates sum to 100%",
+      "status": "PASS",
+      "expected": 100,
+      "actual": 100
+    },
+    {
+      "id": "P2",
+      "name": "Mythical pull rate is 0.5%",
+      "status": "PASS",
+      "expected": 0.5,
+      "actual": 0.5
+    },
+    {
+      "id": "P3",
+      "name": "rarity table creature counts match the catalog",
+      "status": "PASS",
+      "expected": {
+        "common": 168,
+        "uncommon": 120,
+        "rare": 72,
+        "epic": 36,
+        "legendary": 24,
+        "mythical": 12
+      },
+      "actual": {
+        "common": 168,
+        "uncommon": 120,
+        "rare": 72,
+        "epic": 36,
+        "legendary": 24,
+        "mythical": 12
+      }
+    },
+    {
+      "id": "P4",
+      "name": "per-creature pull chances sum to 100%",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "P5",
+      "name": "each creature pull chance equals its tier rate divided by tier size",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "P6",
+      "name": "Mythical tier per-creature chance is 0.5 / 12 %",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "M1",
+      "name": "element matrix is 12x12 with matching labels",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "M2",
+      "name": "element entries are finite numbers",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "F1",
+      "name": "family matrix is 12x12 with matching labels",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "F2",
+      "name": "family entries are finite numbers",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "M3",
+      "name": "element modifiers within combat_rules bounds (-0.15 .. +0.20)",
+      "status": "PASS",
+      "expected": {
+        "min": -0.15,
+        "max": 0.2
+      },
+      "actual": {
+        "min": -0.15,
+        "max": 0.2
+      }
+    },
+    {
+      "id": "F3",
+      "name": "family modifiers within combat_rules bounds (-0.10 .. +0.12)",
+      "status": "PASS",
+      "expected": {
+        "min": -0.1,
+        "max": 0.12
+      },
+      "actual": {
+        "min": -0.1,
+        "max": 0.12
+      }
+    },
+    {
+      "id": "M4",
+      "name": "each element favours 3 and disadvantages 3 others",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "F4",
+      "name": "each family favours 2 and disadvantages 2 others",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "id": "M5",
+      "name": "best and worst combined multipliers match combat_rules",
+      "status": "PASS",
+      "expected": {
+        "best": 1.344,
+        "worst": 0.765
+      },
+      "actual": {
+        "best": 1.344,
+        "worst": 0.765
+      }
+    },
+    {
+      "id": "K1",
+      "name": "catalogue covers 432 creatures",
+      "status": "PASS",
+      "expected": 432,
+      "actual": 432
+    },
+    {
+      "id": "K2",
+      "name": "every creature has a runnable signature ability",
+      "status": "PASS",
+      "expected": 432,
+      "actual": 432
+    },
+    {
+      "id": "K3",
+      "name": "every creature has a passive",
+      "status": "PASS",
+      "expected": 432,
+      "actual": 432
+    },
+    {
+      "id": "K4",
+      "name": "no ability is awaiting schema v2",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "id": "K5",
+      "name": "every catalogue creature is a legal combatant (schema V1-V9)",
+      "status": "PASS",
+      "expected": 432,
+      "actual": 432
+    }
+  ],
+  "warnings": [
+    "creature status: {\"Design proposal\":432} (catalog is not yet balance-validated)"
+  ],
+  "inputs": {
+    "public/assets/aistudio/Shattered_Dominion_432_Creatures_e15509ef.csv": "e15509ef3ba0f2154cfa7dc50987be63b800a74121140f0c221b270ca573a750",
+    "public/assets/aistudio/rarity_pull_rates_1ad4b05c.csv": "56d43d7a599fe21df2d232a35c4cf2c62a4feed906a568b50732803158a85fed",
+    "public/assets/aistudio/element_matchups_e91390d1.csv": "60d31a8676cd652d1fa2e350f4d20dab895a8cbca226ce64c9b6d43671130cf0",
+    "public/assets/aistudio/family_matchups_05811a4f.csv": "55c73dca77256d87497e689f5781a55c89de85dbc957b66f2b09426fa0a182ed"
+  }
+}

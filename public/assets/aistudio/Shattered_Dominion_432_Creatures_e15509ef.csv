@@ -1,0 +1,433 @@
+ID,Creature Name,Family,Element,Rarity,Tier,Combat Role,Archetype,Signature Ability,Family Specialty,Single Pull Chance (%),Status
+SD-0001,Cinder Wyrmling,Dragons,Fire,Common,1,Skirmisher,Wyrmling,Singe,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0002,Ember Wyvern,Dragons,Fire,Common,1,Controller,Wyvern,Flame Lash,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0003,Infernal Elder Dragon,Dragons,Fire,Common,1,Vanguard,Elder Dragon,Inferno Pulse,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0004,Reef Wyrmling,Dragons,Water,Common,1,Controller,Wyrmling,Tidal Push,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0005,Tidal Wyvern,Dragons,Water,Common,1,Vanguard,Wyvern,Undertow,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0006,Deepwater Elder Dragon,Dragons,Water,Common,1,Support,Elder Dragon,Deluge,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0007,Stone Wyrmling,Dragons,Earth,Common,1,Vanguard,Wyrmling,Stone Skin,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0008,Granite Wyvern,Dragons,Earth,Common,1,Support,Wyvern,Quake Slam,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0009,Worldroot Elder Dragon,Dragons,Earth,Common,1,Siege,Elder Dragon,Tectonic Guard,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0010,Gale Wyrmling,Dragons,Wind,Common,1,Support,Wyrmling,Swiftstep,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0011,Zephyr Wyvern,Dragons,Wind,Common,1,Siege,Wyvern,Cyclone Slash,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0012,Skyborne Elder Dragon,Dragons,Wind,Common,1,Assassin,Elder Dragon,Tempest Field,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0013,Spark Wyrmling,Dragons,Lightning,Common,1,Siege,Wyrmling,Static Touch,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0014,Thunder Wyvern,Dragons,Lightning,Common,1,Assassin,Wyvern,Arc Chain,Flying assault / breath attacks,0.3005952380952381,Design proposal
+SD-0015,Stormcrowned Elder Dragon,Dragons,Lightning,Uncommon,2,Skirmisher,Elder Dragon,Thunderstorm,Flying assault / breath attacks,0.225,Design proposal
+SD-0016,Rime Wyrmling,Dragons,Frost,Uncommon,2,Assassin,Wyrmling,Chill,Flying assault / breath attacks,0.225,Design proposal
+SD-0017,Glacial Wyvern,Dragons,Frost,Uncommon,2,Skirmisher,Wyvern,Ice Prison,Flying assault / breath attacks,0.225,Design proposal
+SD-0018,Winterborn Elder Dragon,Dragons,Frost,Uncommon,2,Controller,Elder Dragon,Absolute Zero,Flying assault / breath attacks,0.225,Design proposal
+SD-0019,Briar Wyrmling,Dragons,Nature,Uncommon,2,Skirmisher,Wyrmling,Regrowth,Flying assault / breath attacks,0.225,Design proposal
+SD-0020,Wildwood Wyvern,Dragons,Nature,Uncommon,2,Controller,Wyvern,Vine Snare,Flying assault / breath attacks,0.225,Design proposal
+SD-0021,Verdant Elder Dragon,Dragons,Nature,Uncommon,2,Vanguard,Elder Dragon,Ancient Bloom,Flying assault / breath attacks,0.225,Design proposal
+SD-0022,Dusk Wyrmling,Dragons,Shadow,Uncommon,2,Controller,Wyrmling,Blindside,Flying assault / breath attacks,0.225,Design proposal
+SD-0023,Umbral Wyvern,Dragons,Shadow,Uncommon,2,Vanguard,Wyvern,Dread Veil,Flying assault / breath attacks,0.225,Design proposal
+SD-0024,Nightfall Elder Dragon,Dragons,Shadow,Uncommon,2,Support,Elder Dragon,Eclipse,Flying assault / breath attacks,0.225,Design proposal
+SD-0025,Dawn Wyrmling,Dragons,Light,Rare,3,Vanguard,Wyrmling,Glimmer,Flying assault / breath attacks,0.19444444444444445,Design proposal
+SD-0026,Radiant Wyvern,Dragons,Light,Rare,3,Support,Wyvern,Radiant Ward,Flying assault / breath attacks,0.19444444444444445,Design proposal
+SD-0027,Sunforged Elder Dragon,Dragons,Light,Rare,3,Siege,Elder Dragon,Judgment,Flying assault / breath attacks,0.19444444444444445,Design proposal
+SD-0028,Rune Wyrmling,Dragons,Arcane,Rare,3,Support,Wyrmling,Mana Spark,Flying assault / breath attacks,0.19444444444444445,Design proposal
+SD-0029,Aether Wyvern,Dragons,Arcane,Rare,3,Siege,Wyvern,Rune Break,Flying assault / breath attacks,0.19444444444444445,Design proposal
+SD-0030,Astral Elder Dragon,Dragons,Arcane,Rare,3,Assassin,Elder Dragon,Aether Rift,Flying assault / breath attacks,0.19444444444444445,Design proposal
+SD-0031,Venom Wyrmling,Dragons,Poison,Epic,4,Siege,Wyrmling,Toxic Bite,Flying assault / breath attacks,0.16666666666666666,Design proposal
+SD-0032,Blight Wyvern,Dragons,Poison,Epic,4,Assassin,Wyvern,Noxious Cloud,Flying assault / breath attacks,0.16666666666666666,Design proposal
+SD-0033,Pestilent Elder Dragon,Dragons,Poison,Epic,4,Skirmisher,Elder Dragon,Plague Bloom,Flying assault / breath attacks,0.16666666666666666,Design proposal
+SD-0034,Hollow Wyrmling,Dragons,Void,Legendary,5,Assassin,Wyrmling,Phase Shift,Flying assault / breath attacks,0.08333333333333333,Design proposal
+SD-0035,Null Wyvern,Dragons,Void,Legendary,5,Skirmisher,Wyvern,Null Ray,Flying assault / breath attacks,0.08333333333333333,Design proposal
+SD-0036,"Abyssal Elder Dragon, the Firstborn",Dragons,Void,Mythical,6,Controller,Elder Dragon,Ascendant Oblivion Rift,Flying assault / breath attacks,0.041666666666666664,Design proposal
+SD-0037,Reef Gravewalker,Undead,Water,Common,1,Vanguard,Gravewalker,Tidal Push,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0038,Tidal Revenant,Undead,Water,Common,1,Support,Revenant,Undertow,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0039,Deepwater Lichlord,Undead,Water,Common,1,Siege,Lichlord,Deluge,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0040,Stone Gravewalker,Undead,Earth,Common,1,Support,Gravewalker,Stone Skin,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0041,Granite Revenant,Undead,Earth,Common,1,Siege,Revenant,Quake Slam,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0042,Worldroot Lichlord,Undead,Earth,Common,1,Assassin,Lichlord,Tectonic Guard,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0043,Gale Gravewalker,Undead,Wind,Common,1,Siege,Gravewalker,Swiftstep,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0044,Zephyr Revenant,Undead,Wind,Common,1,Assassin,Revenant,Cyclone Slash,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0045,Skyborne Lichlord,Undead,Wind,Common,1,Skirmisher,Lichlord,Tempest Field,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0046,Spark Gravewalker,Undead,Lightning,Common,1,Assassin,Gravewalker,Static Touch,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0047,Thunder Revenant,Undead,Lightning,Common,1,Skirmisher,Revenant,Arc Chain,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0048,Stormcrowned Lichlord,Undead,Lightning,Common,1,Controller,Lichlord,Thunderstorm,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0049,Rime Gravewalker,Undead,Frost,Common,1,Skirmisher,Gravewalker,Chill,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0050,Glacial Revenant,Undead,Frost,Common,1,Controller,Revenant,Ice Prison,Resilience / death triggers,0.3005952380952381,Design proposal
+SD-0051,Winterborn Lichlord,Undead,Frost,Uncommon,2,Vanguard,Lichlord,Absolute Zero,Resilience / death triggers,0.225,Design proposal
+SD-0052,Briar Gravewalker,Undead,Nature,Uncommon,2,Controller,Gravewalker,Regrowth,Resilience / death triggers,0.225,Design proposal
+SD-0053,Wildwood Revenant,Undead,Nature,Uncommon,2,Vanguard,Revenant,Vine Snare,Resilience / death triggers,0.225,Design proposal
+SD-0054,Verdant Lichlord,Undead,Nature,Uncommon,2,Support,Lichlord,Ancient Bloom,Resilience / death triggers,0.225,Design proposal
+SD-0055,Dusk Gravewalker,Undead,Shadow,Uncommon,2,Vanguard,Gravewalker,Blindside,Resilience / death triggers,0.225,Design proposal
+SD-0056,Umbral Revenant,Undead,Shadow,Uncommon,2,Support,Revenant,Dread Veil,Resilience / death triggers,0.225,Design proposal
+SD-0057,Nightfall Lichlord,Undead,Shadow,Uncommon,2,Siege,Lichlord,Eclipse,Resilience / death triggers,0.225,Design proposal
+SD-0058,Dawn Gravewalker,Undead,Light,Uncommon,2,Support,Gravewalker,Glimmer,Resilience / death triggers,0.225,Design proposal
+SD-0059,Radiant Revenant,Undead,Light,Uncommon,2,Siege,Revenant,Radiant Ward,Resilience / death triggers,0.225,Design proposal
+SD-0060,Sunforged Lichlord,Undead,Light,Uncommon,2,Assassin,Lichlord,Judgment,Resilience / death triggers,0.225,Design proposal
+SD-0061,Rune Gravewalker,Undead,Arcane,Rare,3,Siege,Gravewalker,Mana Spark,Resilience / death triggers,0.19444444444444445,Design proposal
+SD-0062,Aether Revenant,Undead,Arcane,Rare,3,Assassin,Revenant,Rune Break,Resilience / death triggers,0.19444444444444445,Design proposal
+SD-0063,Astral Lichlord,Undead,Arcane,Rare,3,Skirmisher,Lichlord,Aether Rift,Resilience / death triggers,0.19444444444444445,Design proposal
+SD-0064,Venom Gravewalker,Undead,Poison,Rare,3,Assassin,Gravewalker,Toxic Bite,Resilience / death triggers,0.19444444444444445,Design proposal
+SD-0065,Blight Revenant,Undead,Poison,Rare,3,Skirmisher,Revenant,Noxious Cloud,Resilience / death triggers,0.19444444444444445,Design proposal
+SD-0066,Pestilent Lichlord,Undead,Poison,Rare,3,Controller,Lichlord,Plague Bloom,Resilience / death triggers,0.19444444444444445,Design proposal
+SD-0067,Hollow Gravewalker,Undead,Void,Epic,4,Skirmisher,Gravewalker,Phase Shift,Resilience / death triggers,0.16666666666666666,Design proposal
+SD-0068,Null Revenant,Undead,Void,Epic,4,Controller,Revenant,Null Ray,Resilience / death triggers,0.16666666666666666,Design proposal
+SD-0069,Abyssal Lichlord,Undead,Void,Epic,4,Vanguard,Lichlord,Oblivion Rift,Resilience / death triggers,0.16666666666666666,Design proposal
+SD-0070,Cinder Gravewalker,Undead,Fire,Legendary,5,Controller,Gravewalker,Singe,Resilience / death triggers,0.08333333333333333,Design proposal
+SD-0071,Ember Revenant,Undead,Fire,Legendary,5,Vanguard,Revenant,Flame Lash,Resilience / death triggers,0.08333333333333333,Design proposal
+SD-0072,"Infernal Lichlord, the Firstborn",Undead,Fire,Mythical,6,Support,Lichlord,Ascendant Inferno Pulse,Resilience / death triggers,0.041666666666666664,Design proposal
+SD-0073,Stone Wisp,Elementals,Earth,Common,1,Siege,Wisp,Stone Skin,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0074,Granite Sentinel,Elementals,Earth,Common,1,Assassin,Sentinel,Quake Slam,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0075,Worldroot Colossus,Elementals,Earth,Common,1,Skirmisher,Colossus,Tectonic Guard,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0076,Gale Wisp,Elementals,Wind,Common,1,Assassin,Wisp,Swiftstep,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0077,Zephyr Sentinel,Elementals,Wind,Common,1,Skirmisher,Sentinel,Cyclone Slash,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0078,Skyborne Colossus,Elementals,Wind,Common,1,Controller,Colossus,Tempest Field,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0079,Spark Wisp,Elementals,Lightning,Common,1,Skirmisher,Wisp,Static Touch,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0080,Thunder Sentinel,Elementals,Lightning,Common,1,Controller,Sentinel,Arc Chain,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0081,Stormcrowned Colossus,Elementals,Lightning,Common,1,Vanguard,Colossus,Thunderstorm,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0082,Rime Wisp,Elementals,Frost,Common,1,Controller,Wisp,Chill,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0083,Glacial Sentinel,Elementals,Frost,Common,1,Vanguard,Sentinel,Ice Prison,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0084,Winterborn Colossus,Elementals,Frost,Common,1,Support,Colossus,Absolute Zero,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0085,Briar Wisp,Elementals,Nature,Common,1,Vanguard,Wisp,Regrowth,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0086,Wildwood Sentinel,Elementals,Nature,Common,1,Support,Sentinel,Vine Snare,Elemental resistance / terrain,0.3005952380952381,Design proposal
+SD-0087,Verdant Colossus,Elementals,Nature,Uncommon,2,Siege,Colossus,Ancient Bloom,Elemental resistance / terrain,0.225,Design proposal
+SD-0088,Dusk Wisp,Elementals,Shadow,Uncommon,2,Support,Wisp,Blindside,Elemental resistance / terrain,0.225,Design proposal
+SD-0089,Umbral Sentinel,Elementals,Shadow,Uncommon,2,Siege,Sentinel,Dread Veil,Elemental resistance / terrain,0.225,Design proposal
+SD-0090,Nightfall Colossus,Elementals,Shadow,Uncommon,2,Assassin,Colossus,Eclipse,Elemental resistance / terrain,0.225,Design proposal
+SD-0091,Dawn Wisp,Elementals,Light,Uncommon,2,Siege,Wisp,Glimmer,Elemental resistance / terrain,0.225,Design proposal
+SD-0092,Radiant Sentinel,Elementals,Light,Uncommon,2,Assassin,Sentinel,Radiant Ward,Elemental resistance / terrain,0.225,Design proposal
+SD-0093,Sunforged Colossus,Elementals,Light,Uncommon,2,Skirmisher,Colossus,Judgment,Elemental resistance / terrain,0.225,Design proposal
+SD-0094,Rune Wisp,Elementals,Arcane,Uncommon,2,Assassin,Wisp,Mana Spark,Elemental resistance / terrain,0.225,Design proposal
+SD-0095,Aether Sentinel,Elementals,Arcane,Uncommon,2,Skirmisher,Sentinel,Rune Break,Elemental resistance / terrain,0.225,Design proposal
+SD-0096,Astral Colossus,Elementals,Arcane,Uncommon,2,Controller,Colossus,Aether Rift,Elemental resistance / terrain,0.225,Design proposal
+SD-0097,Venom Wisp,Elementals,Poison,Rare,3,Skirmisher,Wisp,Toxic Bite,Elemental resistance / terrain,0.19444444444444445,Design proposal
+SD-0098,Blight Sentinel,Elementals,Poison,Rare,3,Controller,Sentinel,Noxious Cloud,Elemental resistance / terrain,0.19444444444444445,Design proposal
+SD-0099,Pestilent Colossus,Elementals,Poison,Rare,3,Vanguard,Colossus,Plague Bloom,Elemental resistance / terrain,0.19444444444444445,Design proposal
+SD-0100,Hollow Wisp,Elementals,Void,Rare,3,Controller,Wisp,Phase Shift,Elemental resistance / terrain,0.19444444444444445,Design proposal
+SD-0101,Null Sentinel,Elementals,Void,Rare,3,Vanguard,Sentinel,Null Ray,Elemental resistance / terrain,0.19444444444444445,Design proposal
+SD-0102,Abyssal Colossus,Elementals,Void,Rare,3,Support,Colossus,Oblivion Rift,Elemental resistance / terrain,0.19444444444444445,Design proposal
+SD-0103,Cinder Wisp,Elementals,Fire,Epic,4,Vanguard,Wisp,Singe,Elemental resistance / terrain,0.16666666666666666,Design proposal
+SD-0104,Ember Sentinel,Elementals,Fire,Epic,4,Support,Sentinel,Flame Lash,Elemental resistance / terrain,0.16666666666666666,Design proposal
+SD-0105,Infernal Colossus,Elementals,Fire,Epic,4,Siege,Colossus,Inferno Pulse,Elemental resistance / terrain,0.16666666666666666,Design proposal
+SD-0106,Reef Wisp,Elementals,Water,Legendary,5,Support,Wisp,Tidal Push,Elemental resistance / terrain,0.08333333333333333,Design proposal
+SD-0107,Tidal Sentinel,Elementals,Water,Legendary,5,Siege,Sentinel,Undertow,Elemental resistance / terrain,0.08333333333333333,Design proposal
+SD-0108,"Deepwater Colossus, the Firstborn",Elementals,Water,Mythical,6,Assassin,Colossus,Ascendant Deluge,Elemental resistance / terrain,0.041666666666666664,Design proposal
+SD-0109,Gale Imp,Demons,Wind,Common,1,Skirmisher,Imp,Swiftstep,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0110,Zephyr Fiend,Demons,Wind,Common,1,Controller,Fiend,Cyclone Slash,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0111,Skyborne Archfiend,Demons,Wind,Common,1,Vanguard,Archfiend,Tempest Field,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0112,Spark Imp,Demons,Lightning,Common,1,Controller,Imp,Static Touch,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0113,Thunder Fiend,Demons,Lightning,Common,1,Vanguard,Fiend,Arc Chain,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0114,Stormcrowned Archfiend,Demons,Lightning,Common,1,Support,Archfiend,Thunderstorm,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0115,Rime Imp,Demons,Frost,Common,1,Vanguard,Imp,Chill,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0116,Glacial Fiend,Demons,Frost,Common,1,Support,Fiend,Ice Prison,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0117,Winterborn Archfiend,Demons,Frost,Common,1,Siege,Archfiend,Absolute Zero,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0118,Briar Imp,Demons,Nature,Common,1,Support,Imp,Regrowth,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0119,Wildwood Fiend,Demons,Nature,Common,1,Siege,Fiend,Vine Snare,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0120,Verdant Archfiend,Demons,Nature,Common,1,Assassin,Archfiend,Ancient Bloom,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0121,Dusk Imp,Demons,Shadow,Common,1,Siege,Imp,Blindside,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0122,Umbral Fiend,Demons,Shadow,Common,1,Assassin,Fiend,Dread Veil,Berserk / sacrifice,0.3005952380952381,Design proposal
+SD-0123,Nightfall Archfiend,Demons,Shadow,Uncommon,2,Skirmisher,Archfiend,Eclipse,Berserk / sacrifice,0.225,Design proposal
+SD-0124,Dawn Imp,Demons,Light,Uncommon,2,Assassin,Imp,Glimmer,Berserk / sacrifice,0.225,Design proposal
+SD-0125,Radiant Fiend,Demons,Light,Uncommon,2,Skirmisher,Fiend,Radiant Ward,Berserk / sacrifice,0.225,Design proposal
+SD-0126,Sunforged Archfiend,Demons,Light,Uncommon,2,Controller,Archfiend,Judgment,Berserk / sacrifice,0.225,Design proposal
+SD-0127,Rune Imp,Demons,Arcane,Uncommon,2,Skirmisher,Imp,Mana Spark,Berserk / sacrifice,0.225,Design proposal
+SD-0128,Aether Fiend,Demons,Arcane,Uncommon,2,Controller,Fiend,Rune Break,Berserk / sacrifice,0.225,Design proposal
+SD-0129,Astral Archfiend,Demons,Arcane,Uncommon,2,Vanguard,Archfiend,Aether Rift,Berserk / sacrifice,0.225,Design proposal
+SD-0130,Venom Imp,Demons,Poison,Uncommon,2,Controller,Imp,Toxic Bite,Berserk / sacrifice,0.225,Design proposal
+SD-0131,Blight Fiend,Demons,Poison,Uncommon,2,Vanguard,Fiend,Noxious Cloud,Berserk / sacrifice,0.225,Design proposal
+SD-0132,Pestilent Archfiend,Demons,Poison,Uncommon,2,Support,Archfiend,Plague Bloom,Berserk / sacrifice,0.225,Design proposal
+SD-0133,Hollow Imp,Demons,Void,Rare,3,Vanguard,Imp,Phase Shift,Berserk / sacrifice,0.19444444444444445,Design proposal
+SD-0134,Null Fiend,Demons,Void,Rare,3,Support,Fiend,Null Ray,Berserk / sacrifice,0.19444444444444445,Design proposal
+SD-0135,Abyssal Archfiend,Demons,Void,Rare,3,Siege,Archfiend,Oblivion Rift,Berserk / sacrifice,0.19444444444444445,Design proposal
+SD-0136,Cinder Imp,Demons,Fire,Rare,3,Support,Imp,Singe,Berserk / sacrifice,0.19444444444444445,Design proposal
+SD-0137,Ember Fiend,Demons,Fire,Rare,3,Siege,Fiend,Flame Lash,Berserk / sacrifice,0.19444444444444445,Design proposal
+SD-0138,Infernal Archfiend,Demons,Fire,Rare,3,Assassin,Archfiend,Inferno Pulse,Berserk / sacrifice,0.19444444444444445,Design proposal
+SD-0139,Reef Imp,Demons,Water,Epic,4,Siege,Imp,Tidal Push,Berserk / sacrifice,0.16666666666666666,Design proposal
+SD-0140,Tidal Fiend,Demons,Water,Epic,4,Assassin,Fiend,Undertow,Berserk / sacrifice,0.16666666666666666,Design proposal
+SD-0141,Deepwater Archfiend,Demons,Water,Epic,4,Skirmisher,Archfiend,Deluge,Berserk / sacrifice,0.16666666666666666,Design proposal
+SD-0142,Stone Imp,Demons,Earth,Legendary,5,Assassin,Imp,Stone Skin,Berserk / sacrifice,0.08333333333333333,Design proposal
+SD-0143,Granite Fiend,Demons,Earth,Legendary,5,Skirmisher,Fiend,Quake Slam,Berserk / sacrifice,0.08333333333333333,Design proposal
+SD-0144,"Worldroot Archfiend, the Firstborn",Demons,Earth,Mythical,6,Controller,Archfiend,Ascendant Tectonic Guard,Berserk / sacrifice,0.041666666666666664,Design proposal
+SD-0145,Spark Stalker,Beasts,Lightning,Common,1,Vanguard,Stalker,Static Touch,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0146,Thunder Direbeast,Beasts,Lightning,Common,1,Support,Direbeast,Arc Chain,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0147,Stormcrowned Primal Beast,Beasts,Lightning,Common,1,Siege,Primal Beast,Thunderstorm,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0148,Rime Stalker,Beasts,Frost,Common,1,Support,Stalker,Chill,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0149,Glacial Direbeast,Beasts,Frost,Common,1,Siege,Direbeast,Ice Prison,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0150,Winterborn Primal Beast,Beasts,Frost,Common,1,Assassin,Primal Beast,Absolute Zero,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0151,Briar Stalker,Beasts,Nature,Common,1,Siege,Stalker,Regrowth,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0152,Wildwood Direbeast,Beasts,Nature,Common,1,Assassin,Direbeast,Vine Snare,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0153,Verdant Primal Beast,Beasts,Nature,Common,1,Skirmisher,Primal Beast,Ancient Bloom,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0154,Dusk Stalker,Beasts,Shadow,Common,1,Assassin,Stalker,Blindside,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0155,Umbral Direbeast,Beasts,Shadow,Common,1,Skirmisher,Direbeast,Dread Veil,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0156,Nightfall Primal Beast,Beasts,Shadow,Common,1,Controller,Primal Beast,Eclipse,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0157,Dawn Stalker,Beasts,Light,Common,1,Skirmisher,Stalker,Glimmer,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0158,Radiant Direbeast,Beasts,Light,Common,1,Controller,Direbeast,Radiant Ward,Pack hunting / mobility,0.3005952380952381,Design proposal
+SD-0159,Sunforged Primal Beast,Beasts,Light,Uncommon,2,Vanguard,Primal Beast,Judgment,Pack hunting / mobility,0.225,Design proposal
+SD-0160,Rune Stalker,Beasts,Arcane,Uncommon,2,Controller,Stalker,Mana Spark,Pack hunting / mobility,0.225,Design proposal
+SD-0161,Aether Direbeast,Beasts,Arcane,Uncommon,2,Vanguard,Direbeast,Rune Break,Pack hunting / mobility,0.225,Design proposal
+SD-0162,Astral Primal Beast,Beasts,Arcane,Uncommon,2,Support,Primal Beast,Aether Rift,Pack hunting / mobility,0.225,Design proposal
+SD-0163,Venom Stalker,Beasts,Poison,Uncommon,2,Vanguard,Stalker,Toxic Bite,Pack hunting / mobility,0.225,Design proposal
+SD-0164,Blight Direbeast,Beasts,Poison,Uncommon,2,Support,Direbeast,Noxious Cloud,Pack hunting / mobility,0.225,Design proposal
+SD-0165,Pestilent Primal Beast,Beasts,Poison,Uncommon,2,Siege,Primal Beast,Plague Bloom,Pack hunting / mobility,0.225,Design proposal
+SD-0166,Hollow Stalker,Beasts,Void,Uncommon,2,Support,Stalker,Phase Shift,Pack hunting / mobility,0.225,Design proposal
+SD-0167,Null Direbeast,Beasts,Void,Uncommon,2,Siege,Direbeast,Null Ray,Pack hunting / mobility,0.225,Design proposal
+SD-0168,Abyssal Primal Beast,Beasts,Void,Uncommon,2,Assassin,Primal Beast,Oblivion Rift,Pack hunting / mobility,0.225,Design proposal
+SD-0169,Cinder Stalker,Beasts,Fire,Rare,3,Siege,Stalker,Singe,Pack hunting / mobility,0.19444444444444445,Design proposal
+SD-0170,Ember Direbeast,Beasts,Fire,Rare,3,Assassin,Direbeast,Flame Lash,Pack hunting / mobility,0.19444444444444445,Design proposal
+SD-0171,Infernal Primal Beast,Beasts,Fire,Rare,3,Skirmisher,Primal Beast,Inferno Pulse,Pack hunting / mobility,0.19444444444444445,Design proposal
+SD-0172,Reef Stalker,Beasts,Water,Rare,3,Assassin,Stalker,Tidal Push,Pack hunting / mobility,0.19444444444444445,Design proposal
+SD-0173,Tidal Direbeast,Beasts,Water,Rare,3,Skirmisher,Direbeast,Undertow,Pack hunting / mobility,0.19444444444444445,Design proposal
+SD-0174,Deepwater Primal Beast,Beasts,Water,Rare,3,Controller,Primal Beast,Deluge,Pack hunting / mobility,0.19444444444444445,Design proposal
+SD-0175,Stone Stalker,Beasts,Earth,Epic,4,Skirmisher,Stalker,Stone Skin,Pack hunting / mobility,0.16666666666666666,Design proposal
+SD-0176,Granite Direbeast,Beasts,Earth,Epic,4,Controller,Direbeast,Quake Slam,Pack hunting / mobility,0.16666666666666666,Design proposal
+SD-0177,Worldroot Primal Beast,Beasts,Earth,Epic,4,Vanguard,Primal Beast,Tectonic Guard,Pack hunting / mobility,0.16666666666666666,Design proposal
+SD-0178,Gale Stalker,Beasts,Wind,Legendary,5,Controller,Stalker,Swiftstep,Pack hunting / mobility,0.08333333333333333,Design proposal
+SD-0179,Zephyr Direbeast,Beasts,Wind,Legendary,5,Vanguard,Direbeast,Cyclone Slash,Pack hunting / mobility,0.08333333333333333,Design proposal
+SD-0180,"Skyborne Primal Beast, the Firstborn",Beasts,Wind,Mythical,6,Support,Primal Beast,Ascendant Tempest Field,Pack hunting / mobility,0.041666666666666664,Design proposal
+SD-0181,Rime Cherub,Celestials,Frost,Common,1,Siege,Cherub,Chill,Healing / protection,0.3005952380952381,Design proposal
+SD-0182,Glacial Griffin,Celestials,Frost,Common,1,Assassin,Griffin,Ice Prison,Healing / protection,0.3005952380952381,Design proposal
+SD-0183,Winterborn Archon,Celestials,Frost,Common,1,Skirmisher,Archon,Absolute Zero,Healing / protection,0.3005952380952381,Design proposal
+SD-0184,Briar Cherub,Celestials,Nature,Common,1,Assassin,Cherub,Regrowth,Healing / protection,0.3005952380952381,Design proposal
+SD-0185,Wildwood Griffin,Celestials,Nature,Common,1,Skirmisher,Griffin,Vine Snare,Healing / protection,0.3005952380952381,Design proposal
+SD-0186,Verdant Archon,Celestials,Nature,Common,1,Controller,Archon,Ancient Bloom,Healing / protection,0.3005952380952381,Design proposal
+SD-0187,Dusk Cherub,Celestials,Shadow,Common,1,Skirmisher,Cherub,Blindside,Healing / protection,0.3005952380952381,Design proposal
+SD-0188,Umbral Griffin,Celestials,Shadow,Common,1,Controller,Griffin,Dread Veil,Healing / protection,0.3005952380952381,Design proposal
+SD-0189,Nightfall Archon,Celestials,Shadow,Common,1,Vanguard,Archon,Eclipse,Healing / protection,0.3005952380952381,Design proposal
+SD-0190,Dawn Cherub,Celestials,Light,Common,1,Controller,Cherub,Glimmer,Healing / protection,0.3005952380952381,Design proposal
+SD-0191,Radiant Griffin,Celestials,Light,Common,1,Vanguard,Griffin,Radiant Ward,Healing / protection,0.3005952380952381,Design proposal
+SD-0192,Sunforged Archon,Celestials,Light,Common,1,Support,Archon,Judgment,Healing / protection,0.3005952380952381,Design proposal
+SD-0193,Rune Cherub,Celestials,Arcane,Common,1,Vanguard,Cherub,Mana Spark,Healing / protection,0.3005952380952381,Design proposal
+SD-0194,Aether Griffin,Celestials,Arcane,Common,1,Support,Griffin,Rune Break,Healing / protection,0.3005952380952381,Design proposal
+SD-0195,Astral Archon,Celestials,Arcane,Uncommon,2,Siege,Archon,Aether Rift,Healing / protection,0.225,Design proposal
+SD-0196,Venom Cherub,Celestials,Poison,Uncommon,2,Support,Cherub,Toxic Bite,Healing / protection,0.225,Design proposal
+SD-0197,Blight Griffin,Celestials,Poison,Uncommon,2,Siege,Griffin,Noxious Cloud,Healing / protection,0.225,Design proposal
+SD-0198,Pestilent Archon,Celestials,Poison,Uncommon,2,Assassin,Archon,Plague Bloom,Healing / protection,0.225,Design proposal
+SD-0199,Hollow Cherub,Celestials,Void,Uncommon,2,Siege,Cherub,Phase Shift,Healing / protection,0.225,Design proposal
+SD-0200,Null Griffin,Celestials,Void,Uncommon,2,Assassin,Griffin,Null Ray,Healing / protection,0.225,Design proposal
+SD-0201,Abyssal Archon,Celestials,Void,Uncommon,2,Skirmisher,Archon,Oblivion Rift,Healing / protection,0.225,Design proposal
+SD-0202,Cinder Cherub,Celestials,Fire,Uncommon,2,Assassin,Cherub,Singe,Healing / protection,0.225,Design proposal
+SD-0203,Ember Griffin,Celestials,Fire,Uncommon,2,Skirmisher,Griffin,Flame Lash,Healing / protection,0.225,Design proposal
+SD-0204,Infernal Archon,Celestials,Fire,Uncommon,2,Controller,Archon,Inferno Pulse,Healing / protection,0.225,Design proposal
+SD-0205,Reef Cherub,Celestials,Water,Rare,3,Skirmisher,Cherub,Tidal Push,Healing / protection,0.19444444444444445,Design proposal
+SD-0206,Tidal Griffin,Celestials,Water,Rare,3,Controller,Griffin,Undertow,Healing / protection,0.19444444444444445,Design proposal
+SD-0207,Deepwater Archon,Celestials,Water,Rare,3,Vanguard,Archon,Deluge,Healing / protection,0.19444444444444445,Design proposal
+SD-0208,Stone Cherub,Celestials,Earth,Rare,3,Controller,Cherub,Stone Skin,Healing / protection,0.19444444444444445,Design proposal
+SD-0209,Granite Griffin,Celestials,Earth,Rare,3,Vanguard,Griffin,Quake Slam,Healing / protection,0.19444444444444445,Design proposal
+SD-0210,Worldroot Archon,Celestials,Earth,Rare,3,Support,Archon,Tectonic Guard,Healing / protection,0.19444444444444445,Design proposal
+SD-0211,Gale Cherub,Celestials,Wind,Epic,4,Vanguard,Cherub,Swiftstep,Healing / protection,0.16666666666666666,Design proposal
+SD-0212,Zephyr Griffin,Celestials,Wind,Epic,4,Support,Griffin,Cyclone Slash,Healing / protection,0.16666666666666666,Design proposal
+SD-0213,Skyborne Archon,Celestials,Wind,Epic,4,Siege,Archon,Tempest Field,Healing / protection,0.16666666666666666,Design proposal
+SD-0214,Spark Cherub,Celestials,Lightning,Legendary,5,Support,Cherub,Static Touch,Healing / protection,0.08333333333333333,Design proposal
+SD-0215,Thunder Griffin,Celestials,Lightning,Legendary,5,Siege,Griffin,Arc Chain,Healing / protection,0.08333333333333333,Design proposal
+SD-0216,"Stormcrowned Archon, the Firstborn",Celestials,Lightning,Mythical,6,Assassin,Archon,Ascendant Thunderstorm,Healing / protection,0.041666666666666664,Design proposal
+SD-0217,Briar Drone,Swarmkin,Nature,Common,1,Skirmisher,Drone,Regrowth,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0218,Wildwood Mantis,Swarmkin,Nature,Common,1,Controller,Mantis,Vine Snare,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0219,Verdant Hive Monarch,Swarmkin,Nature,Common,1,Vanguard,Hive Monarch,Ancient Bloom,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0220,Dusk Drone,Swarmkin,Shadow,Common,1,Controller,Drone,Blindside,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0221,Umbral Mantis,Swarmkin,Shadow,Common,1,Vanguard,Mantis,Dread Veil,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0222,Nightfall Hive Monarch,Swarmkin,Shadow,Common,1,Support,Hive Monarch,Eclipse,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0223,Dawn Drone,Swarmkin,Light,Common,1,Vanguard,Drone,Glimmer,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0224,Radiant Mantis,Swarmkin,Light,Common,1,Support,Mantis,Radiant Ward,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0225,Sunforged Hive Monarch,Swarmkin,Light,Common,1,Siege,Hive Monarch,Judgment,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0226,Rune Drone,Swarmkin,Arcane,Common,1,Support,Drone,Mana Spark,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0227,Aether Mantis,Swarmkin,Arcane,Common,1,Siege,Mantis,Rune Break,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0228,Astral Hive Monarch,Swarmkin,Arcane,Common,1,Assassin,Hive Monarch,Aether Rift,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0229,Venom Drone,Swarmkin,Poison,Common,1,Siege,Drone,Toxic Bite,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0230,Blight Mantis,Swarmkin,Poison,Common,1,Assassin,Mantis,Noxious Cloud,Poison / swarm tempo,0.3005952380952381,Design proposal
+SD-0231,Pestilent Hive Monarch,Swarmkin,Poison,Uncommon,2,Skirmisher,Hive Monarch,Plague Bloom,Poison / swarm tempo,0.225,Design proposal
+SD-0232,Hollow Drone,Swarmkin,Void,Uncommon,2,Assassin,Drone,Phase Shift,Poison / swarm tempo,0.225,Design proposal
+SD-0233,Null Mantis,Swarmkin,Void,Uncommon,2,Skirmisher,Mantis,Null Ray,Poison / swarm tempo,0.225,Design proposal
+SD-0234,Abyssal Hive Monarch,Swarmkin,Void,Uncommon,2,Controller,Hive Monarch,Oblivion Rift,Poison / swarm tempo,0.225,Design proposal
+SD-0235,Cinder Drone,Swarmkin,Fire,Uncommon,2,Skirmisher,Drone,Singe,Poison / swarm tempo,0.225,Design proposal
+SD-0236,Ember Mantis,Swarmkin,Fire,Uncommon,2,Controller,Mantis,Flame Lash,Poison / swarm tempo,0.225,Design proposal
+SD-0237,Infernal Hive Monarch,Swarmkin,Fire,Uncommon,2,Vanguard,Hive Monarch,Inferno Pulse,Poison / swarm tempo,0.225,Design proposal
+SD-0238,Reef Drone,Swarmkin,Water,Uncommon,2,Controller,Drone,Tidal Push,Poison / swarm tempo,0.225,Design proposal
+SD-0239,Tidal Mantis,Swarmkin,Water,Uncommon,2,Vanguard,Mantis,Undertow,Poison / swarm tempo,0.225,Design proposal
+SD-0240,Deepwater Hive Monarch,Swarmkin,Water,Uncommon,2,Support,Hive Monarch,Deluge,Poison / swarm tempo,0.225,Design proposal
+SD-0241,Stone Drone,Swarmkin,Earth,Rare,3,Vanguard,Drone,Stone Skin,Poison / swarm tempo,0.19444444444444445,Design proposal
+SD-0242,Granite Mantis,Swarmkin,Earth,Rare,3,Support,Mantis,Quake Slam,Poison / swarm tempo,0.19444444444444445,Design proposal
+SD-0243,Worldroot Hive Monarch,Swarmkin,Earth,Rare,3,Siege,Hive Monarch,Tectonic Guard,Poison / swarm tempo,0.19444444444444445,Design proposal
+SD-0244,Gale Drone,Swarmkin,Wind,Rare,3,Support,Drone,Swiftstep,Poison / swarm tempo,0.19444444444444445,Design proposal
+SD-0245,Zephyr Mantis,Swarmkin,Wind,Rare,3,Siege,Mantis,Cyclone Slash,Poison / swarm tempo,0.19444444444444445,Design proposal
+SD-0246,Skyborne Hive Monarch,Swarmkin,Wind,Rare,3,Assassin,Hive Monarch,Tempest Field,Poison / swarm tempo,0.19444444444444445,Design proposal
+SD-0247,Spark Drone,Swarmkin,Lightning,Epic,4,Siege,Drone,Static Touch,Poison / swarm tempo,0.16666666666666666,Design proposal
+SD-0248,Thunder Mantis,Swarmkin,Lightning,Epic,4,Assassin,Mantis,Arc Chain,Poison / swarm tempo,0.16666666666666666,Design proposal
+SD-0249,Stormcrowned Hive Monarch,Swarmkin,Lightning,Epic,4,Skirmisher,Hive Monarch,Thunderstorm,Poison / swarm tempo,0.16666666666666666,Design proposal
+SD-0250,Rime Drone,Swarmkin,Frost,Legendary,5,Assassin,Drone,Chill,Poison / swarm tempo,0.08333333333333333,Design proposal
+SD-0251,Glacial Mantis,Swarmkin,Frost,Legendary,5,Skirmisher,Mantis,Ice Prison,Poison / swarm tempo,0.08333333333333333,Design proposal
+SD-0252,"Winterborn Hive Monarch, the Firstborn",Swarmkin,Frost,Mythical,6,Controller,Hive Monarch,Ascendant Absolute Zero,Poison / swarm tempo,0.041666666666666664,Design proposal
+SD-0253,Dusk Tidecrawler,Abyssals,Shadow,Common,1,Vanguard,Tidecrawler,Blindside,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0254,Umbral Siren,Abyssals,Shadow,Common,1,Support,Siren,Dread Veil,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0255,Nightfall Leviathan,Abyssals,Shadow,Common,1,Siege,Leviathan,Eclipse,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0256,Dawn Tidecrawler,Abyssals,Light,Common,1,Support,Tidecrawler,Glimmer,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0257,Radiant Siren,Abyssals,Light,Common,1,Siege,Siren,Radiant Ward,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0258,Sunforged Leviathan,Abyssals,Light,Common,1,Assassin,Leviathan,Judgment,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0259,Rune Tidecrawler,Abyssals,Arcane,Common,1,Siege,Tidecrawler,Mana Spark,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0260,Aether Siren,Abyssals,Arcane,Common,1,Assassin,Siren,Rune Break,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0261,Astral Leviathan,Abyssals,Arcane,Common,1,Skirmisher,Leviathan,Aether Rift,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0262,Venom Tidecrawler,Abyssals,Poison,Common,1,Assassin,Tidecrawler,Toxic Bite,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0263,Blight Siren,Abyssals,Poison,Common,1,Skirmisher,Siren,Noxious Cloud,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0264,Pestilent Leviathan,Abyssals,Poison,Common,1,Controller,Leviathan,Plague Bloom,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0265,Hollow Tidecrawler,Abyssals,Void,Common,1,Skirmisher,Tidecrawler,Phase Shift,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0266,Null Siren,Abyssals,Void,Common,1,Controller,Siren,Null Ray,Disruption / tidal control,0.3005952380952381,Design proposal
+SD-0267,Abyssal Leviathan,Abyssals,Void,Uncommon,2,Vanguard,Leviathan,Oblivion Rift,Disruption / tidal control,0.225,Design proposal
+SD-0268,Cinder Tidecrawler,Abyssals,Fire,Uncommon,2,Controller,Tidecrawler,Singe,Disruption / tidal control,0.225,Design proposal
+SD-0269,Ember Siren,Abyssals,Fire,Uncommon,2,Vanguard,Siren,Flame Lash,Disruption / tidal control,0.225,Design proposal
+SD-0270,Infernal Leviathan,Abyssals,Fire,Uncommon,2,Support,Leviathan,Inferno Pulse,Disruption / tidal control,0.225,Design proposal
+SD-0271,Reef Tidecrawler,Abyssals,Water,Uncommon,2,Vanguard,Tidecrawler,Tidal Push,Disruption / tidal control,0.225,Design proposal
+SD-0272,Tidal Siren,Abyssals,Water,Uncommon,2,Support,Siren,Undertow,Disruption / tidal control,0.225,Design proposal
+SD-0273,Deepwater Leviathan,Abyssals,Water,Uncommon,2,Siege,Leviathan,Deluge,Disruption / tidal control,0.225,Design proposal
+SD-0274,Stone Tidecrawler,Abyssals,Earth,Uncommon,2,Support,Tidecrawler,Stone Skin,Disruption / tidal control,0.225,Design proposal
+SD-0275,Granite Siren,Abyssals,Earth,Uncommon,2,Siege,Siren,Quake Slam,Disruption / tidal control,0.225,Design proposal
+SD-0276,Worldroot Leviathan,Abyssals,Earth,Uncommon,2,Assassin,Leviathan,Tectonic Guard,Disruption / tidal control,0.225,Design proposal
+SD-0277,Gale Tidecrawler,Abyssals,Wind,Rare,3,Siege,Tidecrawler,Swiftstep,Disruption / tidal control,0.19444444444444445,Design proposal
+SD-0278,Zephyr Siren,Abyssals,Wind,Rare,3,Assassin,Siren,Cyclone Slash,Disruption / tidal control,0.19444444444444445,Design proposal
+SD-0279,Skyborne Leviathan,Abyssals,Wind,Rare,3,Skirmisher,Leviathan,Tempest Field,Disruption / tidal control,0.19444444444444445,Design proposal
+SD-0280,Spark Tidecrawler,Abyssals,Lightning,Rare,3,Assassin,Tidecrawler,Static Touch,Disruption / tidal control,0.19444444444444445,Design proposal
+SD-0281,Thunder Siren,Abyssals,Lightning,Rare,3,Skirmisher,Siren,Arc Chain,Disruption / tidal control,0.19444444444444445,Design proposal
+SD-0282,Stormcrowned Leviathan,Abyssals,Lightning,Rare,3,Controller,Leviathan,Thunderstorm,Disruption / tidal control,0.19444444444444445,Design proposal
+SD-0283,Rime Tidecrawler,Abyssals,Frost,Epic,4,Skirmisher,Tidecrawler,Chill,Disruption / tidal control,0.16666666666666666,Design proposal
+SD-0284,Glacial Siren,Abyssals,Frost,Epic,4,Controller,Siren,Ice Prison,Disruption / tidal control,0.16666666666666666,Design proposal
+SD-0285,Winterborn Leviathan,Abyssals,Frost,Epic,4,Vanguard,Leviathan,Absolute Zero,Disruption / tidal control,0.16666666666666666,Design proposal
+SD-0286,Briar Tidecrawler,Abyssals,Nature,Legendary,5,Controller,Tidecrawler,Regrowth,Disruption / tidal control,0.08333333333333333,Design proposal
+SD-0287,Wildwood Siren,Abyssals,Nature,Legendary,5,Vanguard,Siren,Vine Snare,Disruption / tidal control,0.08333333333333333,Design proposal
+SD-0288,"Verdant Leviathan, the Firstborn",Abyssals,Nature,Mythical,6,Support,Leviathan,Ascendant Ancient Bloom,Disruption / tidal control,0.041666666666666664,Design proposal
+SD-0289,Dawn Vanguard,Humanoids,Light,Common,1,Siege,Vanguard,Glimmer,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0290,Radiant Battlemage,Humanoids,Light,Common,1,Assassin,Battlemage,Radiant Ward,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0291,Sunforged Champion,Humanoids,Light,Common,1,Skirmisher,Champion,Judgment,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0292,Rune Vanguard,Humanoids,Arcane,Common,1,Assassin,Vanguard,Mana Spark,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0293,Aether Battlemage,Humanoids,Arcane,Common,1,Skirmisher,Battlemage,Rune Break,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0294,Astral Champion,Humanoids,Arcane,Common,1,Controller,Champion,Aether Rift,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0295,Venom Vanguard,Humanoids,Poison,Common,1,Skirmisher,Vanguard,Toxic Bite,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0296,Blight Battlemage,Humanoids,Poison,Common,1,Controller,Battlemage,Noxious Cloud,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0297,Pestilent Champion,Humanoids,Poison,Common,1,Vanguard,Champion,Plague Bloom,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0298,Hollow Vanguard,Humanoids,Void,Common,1,Controller,Vanguard,Phase Shift,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0299,Null Battlemage,Humanoids,Void,Common,1,Vanguard,Battlemage,Null Ray,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0300,Abyssal Champion,Humanoids,Void,Common,1,Support,Champion,Oblivion Rift,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0301,Cinder Vanguard,Humanoids,Fire,Common,1,Vanguard,Vanguard,Singe,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0302,Ember Battlemage,Humanoids,Fire,Common,1,Support,Battlemage,Flame Lash,Formation / tactical versatility,0.3005952380952381,Design proposal
+SD-0303,Infernal Champion,Humanoids,Fire,Uncommon,2,Siege,Champion,Inferno Pulse,Formation / tactical versatility,0.225,Design proposal
+SD-0304,Reef Vanguard,Humanoids,Water,Uncommon,2,Support,Vanguard,Tidal Push,Formation / tactical versatility,0.225,Design proposal
+SD-0305,Tidal Battlemage,Humanoids,Water,Uncommon,2,Siege,Battlemage,Undertow,Formation / tactical versatility,0.225,Design proposal
+SD-0306,Deepwater Champion,Humanoids,Water,Uncommon,2,Assassin,Champion,Deluge,Formation / tactical versatility,0.225,Design proposal
+SD-0307,Stone Vanguard,Humanoids,Earth,Uncommon,2,Siege,Vanguard,Stone Skin,Formation / tactical versatility,0.225,Design proposal
+SD-0308,Granite Battlemage,Humanoids,Earth,Uncommon,2,Assassin,Battlemage,Quake Slam,Formation / tactical versatility,0.225,Design proposal
+SD-0309,Worldroot Champion,Humanoids,Earth,Uncommon,2,Skirmisher,Champion,Tectonic Guard,Formation / tactical versatility,0.225,Design proposal
+SD-0310,Gale Vanguard,Humanoids,Wind,Uncommon,2,Assassin,Vanguard,Swiftstep,Formation / tactical versatility,0.225,Design proposal
+SD-0311,Zephyr Battlemage,Humanoids,Wind,Uncommon,2,Skirmisher,Battlemage,Cyclone Slash,Formation / tactical versatility,0.225,Design proposal
+SD-0312,Skyborne Champion,Humanoids,Wind,Uncommon,2,Controller,Champion,Tempest Field,Formation / tactical versatility,0.225,Design proposal
+SD-0313,Spark Vanguard,Humanoids,Lightning,Rare,3,Skirmisher,Vanguard,Static Touch,Formation / tactical versatility,0.19444444444444445,Design proposal
+SD-0314,Thunder Battlemage,Humanoids,Lightning,Rare,3,Controller,Battlemage,Arc Chain,Formation / tactical versatility,0.19444444444444445,Design proposal
+SD-0315,Stormcrowned Champion,Humanoids,Lightning,Rare,3,Vanguard,Champion,Thunderstorm,Formation / tactical versatility,0.19444444444444445,Design proposal
+SD-0316,Rime Vanguard,Humanoids,Frost,Rare,3,Controller,Vanguard,Chill,Formation / tactical versatility,0.19444444444444445,Design proposal
+SD-0317,Glacial Battlemage,Humanoids,Frost,Rare,3,Vanguard,Battlemage,Ice Prison,Formation / tactical versatility,0.19444444444444445,Design proposal
+SD-0318,Winterborn Champion,Humanoids,Frost,Rare,3,Support,Champion,Absolute Zero,Formation / tactical versatility,0.19444444444444445,Design proposal
+SD-0319,Briar Vanguard,Humanoids,Nature,Epic,4,Vanguard,Vanguard,Regrowth,Formation / tactical versatility,0.16666666666666666,Design proposal
+SD-0320,Wildwood Battlemage,Humanoids,Nature,Epic,4,Support,Battlemage,Vine Snare,Formation / tactical versatility,0.16666666666666666,Design proposal
+SD-0321,Verdant Champion,Humanoids,Nature,Epic,4,Siege,Champion,Ancient Bloom,Formation / tactical versatility,0.16666666666666666,Design proposal
+SD-0322,Dusk Vanguard,Humanoids,Shadow,Legendary,5,Support,Vanguard,Blindside,Formation / tactical versatility,0.08333333333333333,Design proposal
+SD-0323,Umbral Battlemage,Humanoids,Shadow,Legendary,5,Siege,Battlemage,Dread Veil,Formation / tactical versatility,0.08333333333333333,Design proposal
+SD-0324,"Nightfall Champion, the Firstborn",Humanoids,Shadow,Mythical,6,Assassin,Champion,Ascendant Eclipse,Formation / tactical versatility,0.041666666666666664,Design proposal
+SD-0325,Rune Brute,Giants,Arcane,Common,1,Skirmisher,Brute,Mana Spark,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0326,Aether Titan,Giants,Arcane,Common,1,Controller,Titan,Rune Break,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0327,Astral Worldbreaker,Giants,Arcane,Common,1,Vanguard,Worldbreaker,Aether Rift,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0328,Venom Brute,Giants,Poison,Common,1,Controller,Brute,Toxic Bite,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0329,Blight Titan,Giants,Poison,Common,1,Vanguard,Titan,Noxious Cloud,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0330,Pestilent Worldbreaker,Giants,Poison,Common,1,Support,Worldbreaker,Plague Bloom,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0331,Hollow Brute,Giants,Void,Common,1,Vanguard,Brute,Phase Shift,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0332,Null Titan,Giants,Void,Common,1,Support,Titan,Null Ray,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0333,Abyssal Worldbreaker,Giants,Void,Common,1,Siege,Worldbreaker,Oblivion Rift,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0334,Cinder Brute,Giants,Fire,Common,1,Support,Brute,Singe,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0335,Ember Titan,Giants,Fire,Common,1,Siege,Titan,Flame Lash,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0336,Infernal Worldbreaker,Giants,Fire,Common,1,Assassin,Worldbreaker,Inferno Pulse,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0337,Reef Brute,Giants,Water,Common,1,Siege,Brute,Tidal Push,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0338,Tidal Titan,Giants,Water,Common,1,Assassin,Titan,Undertow,Heavy strikes / control,0.3005952380952381,Design proposal
+SD-0339,Deepwater Worldbreaker,Giants,Water,Uncommon,2,Skirmisher,Worldbreaker,Deluge,Heavy strikes / control,0.225,Design proposal
+SD-0340,Stone Brute,Giants,Earth,Uncommon,2,Assassin,Brute,Stone Skin,Heavy strikes / control,0.225,Design proposal
+SD-0341,Granite Titan,Giants,Earth,Uncommon,2,Skirmisher,Titan,Quake Slam,Heavy strikes / control,0.225,Design proposal
+SD-0342,Worldroot Worldbreaker,Giants,Earth,Uncommon,2,Controller,Worldbreaker,Tectonic Guard,Heavy strikes / control,0.225,Design proposal
+SD-0343,Gale Brute,Giants,Wind,Uncommon,2,Skirmisher,Brute,Swiftstep,Heavy strikes / control,0.225,Design proposal
+SD-0344,Zephyr Titan,Giants,Wind,Uncommon,2,Controller,Titan,Cyclone Slash,Heavy strikes / control,0.225,Design proposal
+SD-0345,Skyborne Worldbreaker,Giants,Wind,Uncommon,2,Vanguard,Worldbreaker,Tempest Field,Heavy strikes / control,0.225,Design proposal
+SD-0346,Spark Brute,Giants,Lightning,Uncommon,2,Controller,Brute,Static Touch,Heavy strikes / control,0.225,Design proposal
+SD-0347,Thunder Titan,Giants,Lightning,Uncommon,2,Vanguard,Titan,Arc Chain,Heavy strikes / control,0.225,Design proposal
+SD-0348,Stormcrowned Worldbreaker,Giants,Lightning,Uncommon,2,Support,Worldbreaker,Thunderstorm,Heavy strikes / control,0.225,Design proposal
+SD-0349,Rime Brute,Giants,Frost,Rare,3,Vanguard,Brute,Chill,Heavy strikes / control,0.19444444444444445,Design proposal
+SD-0350,Glacial Titan,Giants,Frost,Rare,3,Support,Titan,Ice Prison,Heavy strikes / control,0.19444444444444445,Design proposal
+SD-0351,Winterborn Worldbreaker,Giants,Frost,Rare,3,Siege,Worldbreaker,Absolute Zero,Heavy strikes / control,0.19444444444444445,Design proposal
+SD-0352,Briar Brute,Giants,Nature,Rare,3,Support,Brute,Regrowth,Heavy strikes / control,0.19444444444444445,Design proposal
+SD-0353,Wildwood Titan,Giants,Nature,Rare,3,Siege,Titan,Vine Snare,Heavy strikes / control,0.19444444444444445,Design proposal
+SD-0354,Verdant Worldbreaker,Giants,Nature,Rare,3,Assassin,Worldbreaker,Ancient Bloom,Heavy strikes / control,0.19444444444444445,Design proposal
+SD-0355,Dusk Brute,Giants,Shadow,Epic,4,Siege,Brute,Blindside,Heavy strikes / control,0.16666666666666666,Design proposal
+SD-0356,Umbral Titan,Giants,Shadow,Epic,4,Assassin,Titan,Dread Veil,Heavy strikes / control,0.16666666666666666,Design proposal
+SD-0357,Nightfall Worldbreaker,Giants,Shadow,Epic,4,Skirmisher,Worldbreaker,Eclipse,Heavy strikes / control,0.16666666666666666,Design proposal
+SD-0358,Dawn Brute,Giants,Light,Legendary,5,Assassin,Brute,Glimmer,Heavy strikes / control,0.08333333333333333,Design proposal
+SD-0359,Radiant Titan,Giants,Light,Legendary,5,Skirmisher,Titan,Radiant Ward,Heavy strikes / control,0.08333333333333333,Design proposal
+SD-0360,"Sunforged Worldbreaker, the Firstborn",Giants,Light,Mythical,6,Controller,Worldbreaker,Ascendant Judgment,Heavy strikes / control,0.041666666666666664,Design proposal
+SD-0361,Venom Sprite,Fae,Poison,Common,1,Vanguard,Sprite,Toxic Bite,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0362,Blight Court Herald,Fae,Poison,Common,1,Support,Court Herald,Noxious Cloud,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0363,Pestilent Fae Sovereign,Fae,Poison,Common,1,Siege,Fae Sovereign,Plague Bloom,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0364,Hollow Sprite,Fae,Void,Common,1,Support,Sprite,Phase Shift,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0365,Null Court Herald,Fae,Void,Common,1,Siege,Court Herald,Null Ray,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0366,Abyssal Fae Sovereign,Fae,Void,Common,1,Assassin,Fae Sovereign,Oblivion Rift,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0367,Cinder Sprite,Fae,Fire,Common,1,Siege,Sprite,Singe,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0368,Ember Court Herald,Fae,Fire,Common,1,Assassin,Court Herald,Flame Lash,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0369,Infernal Fae Sovereign,Fae,Fire,Common,1,Skirmisher,Fae Sovereign,Inferno Pulse,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0370,Reef Sprite,Fae,Water,Common,1,Assassin,Sprite,Tidal Push,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0371,Tidal Court Herald,Fae,Water,Common,1,Skirmisher,Court Herald,Undertow,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0372,Deepwater Fae Sovereign,Fae,Water,Common,1,Controller,Fae Sovereign,Deluge,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0373,Stone Sprite,Fae,Earth,Common,1,Skirmisher,Sprite,Stone Skin,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0374,Granite Court Herald,Fae,Earth,Common,1,Controller,Court Herald,Quake Slam,Evasion / illusions,0.3005952380952381,Design proposal
+SD-0375,Worldroot Fae Sovereign,Fae,Earth,Uncommon,2,Vanguard,Fae Sovereign,Tectonic Guard,Evasion / illusions,0.225,Design proposal
+SD-0376,Gale Sprite,Fae,Wind,Uncommon,2,Controller,Sprite,Swiftstep,Evasion / illusions,0.225,Design proposal
+SD-0377,Zephyr Court Herald,Fae,Wind,Uncommon,2,Vanguard,Court Herald,Cyclone Slash,Evasion / illusions,0.225,Design proposal
+SD-0378,Skyborne Fae Sovereign,Fae,Wind,Uncommon,2,Support,Fae Sovereign,Tempest Field,Evasion / illusions,0.225,Design proposal
+SD-0379,Spark Sprite,Fae,Lightning,Uncommon,2,Vanguard,Sprite,Static Touch,Evasion / illusions,0.225,Design proposal
+SD-0380,Thunder Court Herald,Fae,Lightning,Uncommon,2,Support,Court Herald,Arc Chain,Evasion / illusions,0.225,Design proposal
+SD-0381,Stormcrowned Fae Sovereign,Fae,Lightning,Uncommon,2,Siege,Fae Sovereign,Thunderstorm,Evasion / illusions,0.225,Design proposal
+SD-0382,Rime Sprite,Fae,Frost,Uncommon,2,Support,Sprite,Chill,Evasion / illusions,0.225,Design proposal
+SD-0383,Glacial Court Herald,Fae,Frost,Uncommon,2,Siege,Court Herald,Ice Prison,Evasion / illusions,0.225,Design proposal
+SD-0384,Winterborn Fae Sovereign,Fae,Frost,Uncommon,2,Assassin,Fae Sovereign,Absolute Zero,Evasion / illusions,0.225,Design proposal
+SD-0385,Briar Sprite,Fae,Nature,Rare,3,Siege,Sprite,Regrowth,Evasion / illusions,0.19444444444444445,Design proposal
+SD-0386,Wildwood Court Herald,Fae,Nature,Rare,3,Assassin,Court Herald,Vine Snare,Evasion / illusions,0.19444444444444445,Design proposal
+SD-0387,Verdant Fae Sovereign,Fae,Nature,Rare,3,Skirmisher,Fae Sovereign,Ancient Bloom,Evasion / illusions,0.19444444444444445,Design proposal
+SD-0388,Dusk Sprite,Fae,Shadow,Rare,3,Assassin,Sprite,Blindside,Evasion / illusions,0.19444444444444445,Design proposal
+SD-0389,Umbral Court Herald,Fae,Shadow,Rare,3,Skirmisher,Court Herald,Dread Veil,Evasion / illusions,0.19444444444444445,Design proposal
+SD-0390,Nightfall Fae Sovereign,Fae,Shadow,Rare,3,Controller,Fae Sovereign,Eclipse,Evasion / illusions,0.19444444444444445,Design proposal
+SD-0391,Dawn Sprite,Fae,Light,Epic,4,Skirmisher,Sprite,Glimmer,Evasion / illusions,0.16666666666666666,Design proposal
+SD-0392,Radiant Court Herald,Fae,Light,Epic,4,Controller,Court Herald,Radiant Ward,Evasion / illusions,0.16666666666666666,Design proposal
+SD-0393,Sunforged Fae Sovereign,Fae,Light,Epic,4,Vanguard,Fae Sovereign,Judgment,Evasion / illusions,0.16666666666666666,Design proposal
+SD-0394,Rune Sprite,Fae,Arcane,Legendary,5,Controller,Sprite,Mana Spark,Evasion / illusions,0.08333333333333333,Design proposal
+SD-0395,Aether Court Herald,Fae,Arcane,Legendary,5,Vanguard,Court Herald,Rune Break,Evasion / illusions,0.08333333333333333,Design proposal
+SD-0396,"Astral Fae Sovereign, the Firstborn",Fae,Arcane,Mythical,6,Support,Fae Sovereign,Ascendant Aether Rift,Evasion / illusions,0.041666666666666664,Design proposal
+SD-0397,Hollow Automaton,Mechanicals,Void,Common,1,Siege,Automaton,Phase Shift,Armor / siege,0.3005952380952381,Design proposal
+SD-0398,Null Sentinel Engine,Mechanicals,Void,Common,1,Assassin,Sentinel Engine,Null Ray,Armor / siege,0.3005952380952381,Design proposal
+SD-0399,Abyssal War Construct,Mechanicals,Void,Common,1,Skirmisher,War Construct,Oblivion Rift,Armor / siege,0.3005952380952381,Design proposal
+SD-0400,Cinder Automaton,Mechanicals,Fire,Common,1,Assassin,Automaton,Singe,Armor / siege,0.3005952380952381,Design proposal
+SD-0401,Ember Sentinel Engine,Mechanicals,Fire,Common,1,Skirmisher,Sentinel Engine,Flame Lash,Armor / siege,0.3005952380952381,Design proposal
+SD-0402,Infernal War Construct,Mechanicals,Fire,Common,1,Controller,War Construct,Inferno Pulse,Armor / siege,0.3005952380952381,Design proposal
+SD-0403,Reef Automaton,Mechanicals,Water,Common,1,Skirmisher,Automaton,Tidal Push,Armor / siege,0.3005952380952381,Design proposal
+SD-0404,Tidal Sentinel Engine,Mechanicals,Water,Common,1,Controller,Sentinel Engine,Undertow,Armor / siege,0.3005952380952381,Design proposal
+SD-0405,Deepwater War Construct,Mechanicals,Water,Common,1,Vanguard,War Construct,Deluge,Armor / siege,0.3005952380952381,Design proposal
+SD-0406,Stone Automaton,Mechanicals,Earth,Common,1,Controller,Automaton,Stone Skin,Armor / siege,0.3005952380952381,Design proposal
+SD-0407,Granite Sentinel Engine,Mechanicals,Earth,Common,1,Vanguard,Sentinel Engine,Quake Slam,Armor / siege,0.3005952380952381,Design proposal
+SD-0408,Worldroot War Construct,Mechanicals,Earth,Common,1,Support,War Construct,Tectonic Guard,Armor / siege,0.3005952380952381,Design proposal
+SD-0409,Gale Automaton,Mechanicals,Wind,Common,1,Vanguard,Automaton,Swiftstep,Armor / siege,0.3005952380952381,Design proposal
+SD-0410,Zephyr Sentinel Engine,Mechanicals,Wind,Common,1,Support,Sentinel Engine,Cyclone Slash,Armor / siege,0.3005952380952381,Design proposal
+SD-0411,Skyborne War Construct,Mechanicals,Wind,Uncommon,2,Siege,War Construct,Tempest Field,Armor / siege,0.225,Design proposal
+SD-0412,Spark Automaton,Mechanicals,Lightning,Uncommon,2,Support,Automaton,Static Touch,Armor / siege,0.225,Design proposal
+SD-0413,Thunder Sentinel Engine,Mechanicals,Lightning,Uncommon,2,Siege,Sentinel Engine,Arc Chain,Armor / siege,0.225,Design proposal
+SD-0414,Stormcrowned War Construct,Mechanicals,Lightning,Uncommon,2,Assassin,War Construct,Thunderstorm,Armor / siege,0.225,Design proposal
+SD-0415,Rime Automaton,Mechanicals,Frost,Uncommon,2,Siege,Automaton,Chill,Armor / siege,0.225,Design proposal
+SD-0416,Glacial Sentinel Engine,Mechanicals,Frost,Uncommon,2,Assassin,Sentinel Engine,Ice Prison,Armor / siege,0.225,Design proposal
+SD-0417,Winterborn War Construct,Mechanicals,Frost,Uncommon,2,Skirmisher,War Construct,Absolute Zero,Armor / siege,0.225,Design proposal
+SD-0418,Briar Automaton,Mechanicals,Nature,Uncommon,2,Assassin,Automaton,Regrowth,Armor / siege,0.225,Design proposal
+SD-0419,Wildwood Sentinel Engine,Mechanicals,Nature,Uncommon,2,Skirmisher,Sentinel Engine,Vine Snare,Armor / siege,0.225,Design proposal
+SD-0420,Verdant War Construct,Mechanicals,Nature,Uncommon,2,Controller,War Construct,Ancient Bloom,Armor / siege,0.225,Design proposal
+SD-0421,Dusk Automaton,Mechanicals,Shadow,Rare,3,Skirmisher,Automaton,Blindside,Armor / siege,0.19444444444444445,Design proposal
+SD-0422,Umbral Sentinel Engine,Mechanicals,Shadow,Rare,3,Controller,Sentinel Engine,Dread Veil,Armor / siege,0.19444444444444445,Design proposal
+SD-0423,Nightfall War Construct,Mechanicals,Shadow,Rare,3,Vanguard,War Construct,Eclipse,Armor / siege,0.19444444444444445,Design proposal
+SD-0424,Dawn Automaton,Mechanicals,Light,Rare,3,Controller,Automaton,Glimmer,Armor / siege,0.19444444444444445,Design proposal
+SD-0425,Radiant Sentinel Engine,Mechanicals,Light,Rare,3,Vanguard,Sentinel Engine,Radiant Ward,Armor / siege,0.19444444444444445,Design proposal
+SD-0426,Sunforged War Construct,Mechanicals,Light,Rare,3,Support,War Construct,Judgment,Armor / siege,0.19444444444444445,Design proposal
+SD-0427,Rune Automaton,Mechanicals,Arcane,Epic,4,Vanguard,Automaton,Mana Spark,Armor / siege,0.16666666666666666,Design proposal
+SD-0428,Aether Sentinel Engine,Mechanicals,Arcane,Epic,4,Support,Sentinel Engine,Rune Break,Armor / siege,0.16666666666666666,Design proposal
+SD-0429,Astral War Construct,Mechanicals,Arcane,Epic,4,Siege,War Construct,Aether Rift,Armor / siege,0.16666666666666666,Design proposal
+SD-0430,Venom Automaton,Mechanicals,Poison,Legendary,5,Support,Automaton,Toxic Bite,Armor / siege,0.08333333333333333,Design proposal
+SD-0431,Blight Sentinel Engine,Mechanicals,Poison,Legendary,5,Siege,Sentinel Engine,Noxious Cloud,Armor / siege,0.08333333333333333,Design proposal
+SD-0432,"Pestilent War Construct, the Firstborn",Mechanicals,Poison,Mythical,6,Assassin,War Construct,Ascendant Plague Bloom,Armor / siege,0.041666666666666664,Design proposal

@@ -1,0 +1,15 @@
+Level,Definition
+Game,Shattered Dominion (working title)
+Collection,432 original creature records
+Family,12 species families
+Element,12 damage affinities per family
+Archetype,3 body / combat-stage archetypes per family-element
+Individual creature,"Unique ID, name, archetype, role, ability"
+Rarity,Common / Uncommon / Rare / Epic / Legendary / Mythical
+Ability,One signature ability concept per creature (not implemented)
+Element matchup,"Directed matrix, 3 favored and 3 disadvantaged targets"
+Family matchup,"Directed matrix, 2 favored and 2 disadvantaged targets"
+Commanders,"Separate progression system, outside 432-creature registry"
+Recruitment,Independent tier roll; then uniform creature selection within tier
+Distribution,Gameplay-earned pulls; no paid-only units
+Status,Design proposal; not tested or NAVI verified
